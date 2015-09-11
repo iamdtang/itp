@@ -7,7 +7,7 @@
 <ul>
   {{#each model as |course|}}
     <li>
-      {{#link-to 'courses.course' course}}
+      {{#link-to 'courses.course' course.id}}
         {{course.course_number}} - {{course.course_name}}
       {{/link-to}}
     </li>

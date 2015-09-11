@@ -1,10 +1,10 @@
 <h2>
-  {{log model}}
   ITP {{model.course_number}} - {{model.course_name}}
 </h2>
 
 {{#each lectures as |lecture|}}
   <div>
     {{lecture.date}}
+    {{lecture.units.length}}
   </div>
 {{/each}}
