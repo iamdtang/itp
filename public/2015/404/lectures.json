@@ -1,0 +1,311 @@
+[
+	{
+		"date": "9/9",
+		"units": [
+			{
+				"subject": "Overview of communicating with a server, JSON, & JSONP APIs",
+				"link": "jsonp"
+			},
+			{
+				"subject": "Asynchronous Programming",
+				"link": ""
+			},
+			{
+				"subject": "Client-side templating with Handlebars.js",
+				"link": "http://handlebarsjs.com/"
+			},
+			{
+				"subject": "Event Delegation",
+				"link": ""
+			},
+			{
+				"subject": "Slides",
+				"link": "https://slides.com/davidtang/404-2015-week3"
+			},
+			{
+				"subject": "Demo",
+				"link": "https://bitbucket.org/skaterdav85/week3/src"
+			},
+			{
+				"subject": "Documentation for other JSONP endpoints",
+				"link": "https://bitbucket.org/skaterdav85/jsonp-endpoints"
+			}
+		],
+		"active": 1
+	},
+	{
+		"date": "9/2",
+		"title": "Object Oriented JavaScript - Part 1",
+		"units": [
+			{
+				"subject": "Object Literals",
+				"link": "oojs1"
+			},
+			{
+				"subject": "Rules for 'this'",
+				"link": "rules-for-this"
+			},
+			{
+				"subject": "Namespacing",
+				"link": "namespacing"
+			},
+			{
+				"subject": "jQuery and 'this'",
+				"link": "jquery-and-this"
+			},
+			{
+				"subject": "Slides",
+				"link": "http://slides.com/davidtang/oojs1"
+			},
+			{
+				"subject": "Demo",
+				"link": "http://jsbin.com/yicipanaco/edit?html,js,console,output"
+			}
+		],
+		"active": 1
+	},
+	{
+		"date": "8/26",
+		"units": [
+			{
+				"subject": "Course introduction",
+				"link": "overview"
+			}
+		],
+		"active": 1
+	},
+	{
+		"date": "9/16",
+		"units": [
+			{
+				"subject": "OOJS 2 - Constructors and Prototypes",
+				"link": "oojs2"
+			}
+		],
+		"active": 0
+	},
+	{
+		"date": "9/23",
+		"units": [
+			{
+				"subject": "Google Maps JavaScript API",
+				"link": "google-maps"
+			},
+			{
+				"subject": "Geolocation API",
+				"link": "geolocation"
+			},
+			{
+				"subject": "Quiz 1 Study Guide",
+				"link": "quiz1-study-guide"
+			}
+		],
+		"active": 0
+	},
+	{
+		"date": "9/30",
+		"units": [
+			{
+				"subject": "Quiz 1",
+				"link": ""
+			},
+			{
+				"subject": "Class demo starter files",
+				"link": "https://github.com/ITP-Webdev/jquery-from-scratch"
+			},
+			{
+				"subject": "Building jQuery from scratch",
+				"link": "jquery-from-scratch"
+			}
+		],
+		"active": 0
+	},
+	{
+		"date": "10/7",
+		"units": [
+			{
+				"subject": "Intro to PHP and server-side proxies",
+				"link": "phpintro"
+			}
+		],
+		"active": 0
+	},
+	{
+		"date": "10/14",
+		"units": [
+			{
+				"subject": "AJAX and Promises",
+				"link": "ajax"
+			},
+			{
+				"subject": "Starter demo files",
+				"link": "https://github.com/ITP-Webdev/404-ajax-2014/tree/master"
+			},
+			{
+				"subject": "Completed demo",
+				"link": "https://github.com/ITP-Webdev/404-ajax-2014/tree/final"
+			}
+		],
+		"active": 0
+	},
+	{
+		"date": "10/21",
+		"units": [
+			{
+				"subject": "Intro to testing and TDD (Slides)",
+				"link": "https://www.dropbox.com/s/pt6txr7zcvtqgph/unit-testing-js.pdf?dl=0"
+			},
+			{
+				"subject": "Jasmine installation",
+				"link": "jasmine-install"
+			},
+			{
+				"subject": "Backends as a Service with Parse (Optional Lab)",
+				"link": "https://github.com/ITP-Webdev/parse-demo"
+			}
+		],
+		"active": 0
+	},
+	{
+		"date": "10/28",
+		"units": [
+			{
+				"subject": "Backbone.js ­- Models, Views, & Collections",
+				"link": "backbone1"
+			},
+			{
+				"subject": "Demo files",
+				"link": "https://github.com/ITP-Webdev/backbone1-2014"
+			},
+			{
+				"subject": "Quiz 2 Study Guide",
+				"link": "quiz2-study-guide"
+			}
+		],
+		"active": 0
+	},
+	{
+		"date": "11/4",
+		"units": [
+			{
+				"subject": "Quiz 2",
+				"link": ""
+			},
+			{
+				"subject": "Backbone.js ­continued",
+				"link": "backbone2"
+			}
+		],
+		"active": 0
+	},
+	{
+		"date": "11/11",
+		"units": [
+			{
+				"subject": "Angular.js part 1",
+				"link": "angular-part-1"
+			},
+			{
+				"subject": "Demo starter files",
+				"link": "https://github.com/ITP-Webdev/angular1-2014"
+			}
+		],
+		"active": 0
+	},
+	{
+		"date": "11/18",
+		"units": [
+			{
+				"subject": "Angular.js part 2",
+				"link": "angular-part-2"
+			},
+			{
+				"subject": "starter files",
+				"link": "https://bitbucket.org/skaterdav85/angular2-2014/get/starter.zip"
+			}
+		],
+		"active": 0
+	},
+	{
+		"date": "11/25",
+		"units": [
+			{
+				"subject": "No class - Recorded lecture on Unit Testing part 2",
+				"link": ""
+			}
+		],
+		"active": 0
+	},
+	{
+		"date": "12/2",
+		"units": [
+			{
+				"subject": "Presentations / Final Project Due",
+				"link": ""
+			}
+		],
+		"active": 0
+	},
+	{
+		"date": "11/5",
+		"units": [
+			{
+				"subject": "Data storage APIs, Parse",
+				"link": "data-storage-apis"
+			},
+			{
+				"subject": "$.data()",
+				"link": "jquery-data"
+			}
+		],
+		"active": 0
+	},
+	{
+		"date": "11/12",
+		"units": [
+			{
+				"subject": "JavaScript Frameworks - Angular.js part 1",
+				"link": "angular-part-1"
+			},
+			{
+				"subject": "Quiz 2 study guide",
+				"link": "quiz2-study-guide"
+			}
+		],
+		"active": 0
+	},
+	{
+		"date": "11/19",
+		"units": [
+			{
+				"subject": "JavaScript Frameworks - Angular.js part 2",
+				"link": "angular-part-2"
+			},
+			{
+				"subject": "Starter files",
+				"link": "http://itpwebdev.usc.edu/starters/404/angular-itunes-search.zip"
+			},
+			{
+				"subject": "Quiz 2",
+				"link": ""
+			}
+		],
+		"active": 0
+	},
+	{
+		"date": "12/3",
+		"units": [
+			{
+				"subject": "Real-time with Websockets",
+				"link": "websockets"
+			}
+		],
+		"active": 0
+	},
+	{
+		"date": "Tuesday 12/17 at 7pm",
+		"units": [
+			{"subject": "Project Presentations", "link": ""}
+		]
+	}
+]

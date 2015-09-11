@@ -1,0 +1,17 @@
+<h1>ITP Web Development Courses</h1>
+
+<p>
+  Please choose a course to visit the class site.
+</p>
+
+<ul>
+  {{#each model as |course|}}
+    <li>
+      {{#link-to 'courses.course' course}}
+        {{course.course_number}} - {{course.course_name}}
+      {{/link-to}}
+    </li>
+  {{/each}}
+</ul>
+
+{{outlet}}
