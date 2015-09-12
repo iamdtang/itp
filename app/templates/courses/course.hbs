@@ -1,10 +1,14 @@
-<h2>
-  ITP {{model.course_number}} - {{model.course_name}}
-</h2>
+<div class="page-header">
+  <h1>ITP {{model.course_number}} - {{model.course_name}}</h1>
+</div>
 
 {{#each lectures as |lecture|}}
   <div>
     {{lecture.date}}
-    {{lecture.units.length}}
+
+    {{#each lecture.units as |unit|}}
+      {{lecture-unit unit=unit}}
+    {{/each}}
+
   </div>
 {{/each}}

@@ -11,6 +11,11 @@ Router.map(function() {
       path: ':id'
     });
   });
+  this.route('notes', function() {
+    this.route('note', {
+      path: ':slug'
+    });
+  });
 });
 
 export default Router;

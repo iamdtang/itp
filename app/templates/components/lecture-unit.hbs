@@ -1,0 +1,7 @@
+{{#if unit.link}}
+  {{#link-to 'notes.note' unit.link}}
+    {{unit.subject}}
+  {{/link-to}}
+{{else}}
+  {{unit.subject}}
+{{/if}}
