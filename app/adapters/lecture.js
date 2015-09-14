@@ -9,7 +9,7 @@ export default DS.RESTAdapter.extend({
       'lectures.json'
     ].join('/');
 
-    return $.getJSON(url);
+    return Ember.$.getJSON(url);
 
     // return new Ember.RSVP.Promise((resolve, reject) => {
     //   let url = '/' + [

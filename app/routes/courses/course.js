@@ -12,8 +12,12 @@ export default Ember.Route.extend({
   },
 
   setupController: function(controller, model) {
+    var activeLectures = model.lectures.filter(function(lecture) {
+      return lecture.get('active') === true;
+    });
+
+    controller.set('lectures', activeLectures);
     controller.set('model', model.course);
-    controller.set('lectures', model.lectures);
   },
 
   renderTemplate(controller, model) {

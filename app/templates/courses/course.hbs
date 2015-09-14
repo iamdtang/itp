@@ -2,13 +2,20 @@
   <h1>ITP {{model.course_number}} - {{model.course_name}}</h1>
 </div>
 
-{{#each lectures as |lecture|}}
-  <div>
-    {{lecture.date}}
+<div class="row">
+  <div class="col-md-7">
+    <h3 class="block-title">Lectures</h3>
 
-    {{#each lecture.units as |unit|}}
-      {{lecture-unit unit=unit}}
+    {{#each lectures as |lecture|}}
+      <div class="lecture">
+        <p class="lecture-date">{{lecture.date}}</p>
+        {{#each lecture.units as |unit|}}
+          {{lecture-unit unit=unit}}
+        {{/each}}
+      </div>
     {{/each}}
-
   </div>
-{{/each}}
+  <div class="col-md-5">
+    <h3 class="block-title">Assignments</h3>
+  </div>
+</div>

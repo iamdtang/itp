@@ -1,0 +1,28 @@
+.lecture {
+  border-top: 1px solid #999;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.block-title + .lecture {
+  border: 0;
+}
+
+.lecture-date {
+  font-style: italic;
+  font-size: 11px;
+  text-align: right;
+}
+
+.block-title {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 14px;
+}
+
+footer {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 12px;
+  text-align: center;
+}
