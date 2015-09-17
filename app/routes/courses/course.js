@@ -4,7 +4,7 @@ export default Ember.Route.extend({
   model(params) {
     var courses = this.modelFor('courses');
     var course = courses.findBy('id', params.id);
-    // var course = this.store.findRecord('course', params.id);
+    // return this.store.find('course', params.id);
 
     // return course;
     return Ember.RSVP.hash({
