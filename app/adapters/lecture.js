@@ -9,7 +9,15 @@ export default DS.RESTAdapter.extend({
       'lectures.json'
     ].join('/');
 
-    return Ember.$.getJSON(url);
+    if (!this.cache) {
+      this.cache = {};
+    }
+
+    if (!this.cache[url]) {
+      this.cache[url] = Ember.$.getJSON(url);
+    }
+
+    return this.cache[url];
 
     // return new Ember.RSVP.Promise((resolve, reject) => {
     //   let url = '/' + [
