@@ -4,19 +4,20 @@ export default Ember.Route.extend({
   model(params) {
     var courses = this.modelFor('courses');
     var course = courses.findBy('id', params.id);
+    // var course = this.store.findRecord('course', params.id);
 
+    // return course;
     return Ember.RSVP.hash({
       course: course,
-      lectures: this.store.query('lecture', { course_number: 404, year: 2015 })
+      lectures: this.store.query('lecture', {
+        course_number: course.get('course_number'),
+        year: course.get('year')
+      })
     });
   },
 
   setupController: function(controller, model) {
-    var activeLectures = model.lectures.filter(function(lecture) {
-      return lecture.get('active') === true;
-    });
-
-    controller.set('lectures', activeLectures);
+    controller.set('lectures', model.lectures);
     controller.set('model', model.course);
   },
 

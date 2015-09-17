@@ -1,6 +1,15 @@
 [
   {
-    "id": 1,
+    "id": 20151405,
+    "course_number": "405",
+    "course_name": "Professional Applications and Frameworks in Web Development",
+    "semester": "Spring",
+    "instructor": "David Tang",
+    "year": 2015,
+    "active": true
+  },
+  {
+    "id": 20153404,
     "course_number": "404",
     "course_name": "Modern Technologies in Web Development",
     "semester": "Fall",
@@ -9,13 +18,15 @@
   	"instructor": "David Tang",
   	"syllabus": "https://docs.google.com/document/d/1c_I5jK-VkadLhXR9YiP_pt4531TNBVKepKh8J4wDv7E/edit?usp=sharing",
   	"time": "Wednesdays 6-8:50pm",
-  	"office_hours": "TBA"
+  	"office_hours": "TBA",
+    "active": true
   },
   {
-    "id": 2,
+    "id": 20161405,
     "course_number": "405",
     "course_name": "Professional Applications and Frameworks in Web Development",
     "semester": "Spring",
-    "year": 2016
+    "year": 2016,
+    "active": false
   }
 ]

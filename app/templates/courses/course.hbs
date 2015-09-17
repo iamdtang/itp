@@ -6,7 +6,7 @@
   <div class="col-md-7">
     <h3 class="block-title">Lectures</h3>
 
-    {{#each lectures as |lecture|}}
+    {{#each activeLectures as |lecture|}}
       <div class="lecture">
         <p class="lecture-date">{{lecture.date}}</p>
         {{#each lecture.units as |unit|}}
@@ -17,5 +17,10 @@
   </div>
   <div class="col-md-5">
     <h3 class="block-title">Assignments</h3>
+    <ol>
+      {{#each model.assignments as |assignment|}}
+        <li>{{assignment.name}}</li>
+      {{/each}}
+    </ol>
   </div>
 </div>

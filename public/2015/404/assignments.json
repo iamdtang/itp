@@ -1,5 +1,6 @@
 [
 	{
+		"id": 1,
 		"name": "Accordion (optional)",
 		"type": "NC",
 		"due": "NA",
@@ -7,6 +8,7 @@
 		"active": 1
 	},
 	{
+		"id": 2,
 		"name": "Bookmark Widget",
 		"type": "A",
 		"due": "9/9",
@@ -14,115 +16,11 @@
 		"active": 1
 	},
 	{
+		"id": 3,
 		"name": "Rotten Tomatoes Search",
 		"type": "A",
 		"due": "9/16",
 		"link": "rotten-tomatoes-search",
 		"active": 1
-	},
-	{
-		"name": "Reviews Report Constructor",
-		"type": "A",
-		"due": "9/23",
-		"link": "oojs2",
-		"active": 0
-	},
-	{
-		"name": "Photo Gallery",
-		"type": "assignment",
-		"due": "9/17",
-		"link": "photo-gallery",
-		"active": 0
-	},
-	{
-		"name": "Form Validation",
-		"type": "assignment",
-		"due": "9/24",
-		"link": "validation",
-		"active": 0
-	},
-	{
-		"name": "Reusable Widget",
-		"type": "assignment",
-		"due": "10/1",
-		"link": "reusable-widget",
-		"active": 0
-	},
-	{
-		"name": "Position Locator",
-		"type": "A",
-		"due": "9/30",
-		"link": "position-mapper",
-		"active": 0
-	},
-	{
-		"name": "Building jQuery",
-		"type": "A",
-		"due": "10/7",
-		"link": "building-jquery",
-		"active": 0
-	},
-	{
-		"name": "iTunes Search",
-		"type": "assignment",
-		"due": "9/16",
-		"link": "jsonp",
-		"active": 0
-	},
-	{
-		"name": "APIs with PHP",
-		"type": "optional",
-		"due": "10/14",
-		"link": "apis-with-php",
-		"active": 0
-	},
-	{
-		"name": "Midterm Project",
-		"type": "P",
-		"due": "TBA",
-		"link": "midterm",
-		"active": 0
-	},
-	{
-		"name": "AJAX w/ PHP and JSON",
-		"type": "A",
-		"due": "10/21",
-		"link": "ajax",
-		"active": 0
-	},
-	{
-		"name": "Project Proposal",
-		"type": "A",
-		"due": "10/21",
-		"link": "project-proposal-requirements",
-		"active": 0
-	},
-	{
-		"name": "Unit Testing ReviewsReport",
-		"type": "A",
-		"due": "10/28",
-		"link": "unit-testing",
-		"active": 0
-	},
-	{
-		"name": "Rotten Tomatoes Search w/ Backbone",
-		"type": "A",
-		"due": "11/4",
-		"link": "backbone1",
-		"active": 0
-	},
-	{
-		"name": "Angular",
-		"type": "A",
-		"due": "11/18",
-		"link": "angular1",
-		"active": 0
-	},
-	{
-		"name": "Final Project Requirements",
-		"type": "P",
-		"due": "12/2",
-		"link": "project-requirements",
-		"active": 0
 	}
 ]

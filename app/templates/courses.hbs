@@ -5,10 +5,10 @@
 </p>
 
 <ul>
-  {{#each model as |course|}}
+  {{#each activeCourses as |course|}}
     <li>
       {{#link-to 'courses.course' course.id}}
-        {{course.course_number}} - {{course.course_name}}
+        {{course.semester}} {{course.year}}: ITP {{course.course_number}} - {{course.course_name}}
       {{/link-to}}
     </li>
   {{/each}}

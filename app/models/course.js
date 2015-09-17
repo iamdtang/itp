@@ -9,5 +9,7 @@ export default DS.Model.extend({
   instructor: DS.attr('string'),
   syllabus: DS.attr('string'),
   time: DS.attr('string'),
-  office_hours: DS.attr('string')
+  office_hours: DS.attr('string'),
+  assignments: DS.hasMany('assignment', { async: true }),
+  active: DS.attr('boolean')
 });
