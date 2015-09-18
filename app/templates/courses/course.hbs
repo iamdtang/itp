@@ -19,7 +19,11 @@
     <h3 class="block-title">Assignments</h3>
     <ol>
       {{#each model.assignments as |assignment|}}
-        <li>{{assignment.name}}</li>
+        <li>
+          {{#link-to 'assignment' assignment.id}}
+            {{assignment.name}}
+          {{/link-to}}
+        </li>
       {{/each}}
     </ol>
   </div>

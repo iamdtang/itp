@@ -16,6 +16,7 @@ Router.map(function() {
       path: ':id'
     });
   });
+  this.route('assignment', { path: 'assignments/:id' });
 });
 
 export default Router;

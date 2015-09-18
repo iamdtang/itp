@@ -29,5 +29,19 @@ export default ApplicationAdapter.extend({
 
 
     return this.buildURL()
+  },
+
+  findRecord(store, type, id, snapshot) {
+    if (!this.cache) {
+      this.cache = {};
+    }
+
+    if (this.cache[id]) {
+      return this.cache[id];
+    }
+
+    return this.cache[id] = Ember.$.ajax({
+      url: 'assignments/' + id + '.md'
+    })
   }
 });
