@@ -1,7 +1,11 @@
 {{#if unit.link}}
-  {{#link-to 'notes.note' unit.link}}
-    {{unit.subject}}
-  {{/link-to}}
+  {{#if isExternal}}
+    <a href="{{unit.link}}" target="_blank">{{unit.subject}}</a>
+  {{else}}
+    {{#link-to 'notes.note' unit.link}}
+      {{unit.subject}}
+    {{/link-to}}
+  {{/if}}
 {{else}}
   {{unit.subject}}
 {{/if}}

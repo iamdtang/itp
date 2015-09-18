@@ -13,7 +13,7 @@ Router.map(function() {
   });
   this.route('notes', function() {
     this.route('note', {
-      path: ':slug'
+      path: ':id'
     });
   });
 });
