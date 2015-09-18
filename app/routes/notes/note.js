@@ -1,11 +1,11 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
-  model(params) {
-    return this.store.findRecord('post', params.id);
+  titleToken(model) {
+    return model.get('id');
   },
 
-  afterModel(model) {
-    console.log(model)
+  model(params) {
+    return this.store.findRecord('post', params.id);
   }
 });
