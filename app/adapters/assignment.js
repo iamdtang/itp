@@ -13,9 +13,38 @@ export default ApplicationAdapter.extend({
     return 'assignments.json';
   },
 
+  getJSONFile() {
+    if (!this.cache) {
+      this.cache = {};
+    }
+
+    if (this.cache['assignments.json']) {
+      return this.cache['assignments.json'];
+    }
+
+    this.cache['assignments.json'] = Ember.$.getJSON('/' + this.urlForFindMany());
+    return this.cache['assignments.json'];
+  },
+
+  getAssignmentContent(id) {
+    if (!this.cache) {
+      this.cache = {};
+    }
+
+    if (this.cache[id]) {
+      return this.cache[id];
+    }
+
+    this.cache[id] = Ember.$.ajax({
+      url: 'assignments/' + id + '.md'
+    });
+
+    return this.cache[id];
+  },
+
   findMany(store, type, ids, snapshots) {
     return new Ember.RSVP.Promise((resolve, reject) => {
-      Ember.$.getJSON('/' + this.urlForFindMany()).then((allAssignments) => {
+      this.getJSONFile().then((allAssignments) => {
         // console.log(assignments, ids)
         var assignments = allAssignments.filter((assignment) => {
           if (ids.indexOf(assignment.id) > -1) {
@@ -32,16 +61,18 @@ export default ApplicationAdapter.extend({
   },
 
   findRecord(store, type, id, snapshot) {
-    if (!this.cache) {
-      this.cache = {};
-    }
+    return Ember.RSVP.hash({
+      assignments: this.getJSONFile(),
+      assignmentContent: this.getAssignmentContent(id)
+    }).then((hash) => {
+      var assignment = hash.assignments.find((assignment) => {
+        if (assignment.id === id) {
+          return true;
+        }
+      });
 
-    if (this.cache[id]) {
-      return this.cache[id];
-    }
-
-    return this.cache[id] = Ember.$.ajax({
-      url: 'assignments/' + id + '.md'
-    })
+      assignment.markdown = hash.assignmentContent;
+      return assignment;
+    });
   }
 });
