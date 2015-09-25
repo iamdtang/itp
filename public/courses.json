@@ -19,7 +19,9 @@
   	"syllabus": "https://docs.google.com/document/d/1c_I5jK-VkadLhXR9YiP_pt4531TNBVKepKh8J4wDv7E/edit?usp=sharing",
   	"time": "Wednesdays 6-8:50pm",
   	"office_hours": "TBA",
-    "assignments": [ "accordion", "bookmark-widget" ],
+    "assignments": [
+      "accordion", "bookmark-widget", "rotten-tomatoes-search", "oojs2", "position-mapper" 
+    ],
     "active": true
   },
   {

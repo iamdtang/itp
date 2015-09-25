@@ -1,5 +1,42 @@
 [
 	{
+		"date": "9/23",
+		"units": [
+			{
+				"subject": "Google Maps JavaScript API",
+				"link": "google-maps"
+			},
+			{
+				"subject": "Geolocation API",
+				"link": "geolocation"
+			},
+			{
+				"subject": "Quiz 1 Study Guide",
+				"link": "quiz1-study-guide"
+			},
+			{
+				"subject": "Demo",
+				"link": "https://bitbucket.org/skaterdav85/googlemaps-2015/src"
+			}
+		],
+		"active": 1
+	},
+	{
+		"date": "9/16",
+		"title": "Object Oriented JavaScript - Part 2",
+		"units": [
+			{
+				"subject": "OOJS 2 - Constructor functions and Prototypes",
+				"link": "oojs2"
+			},
+			{
+				"subject": "Demo",
+				"link": "https://bitbucket.org/skaterdav85/404-2015-constructors/src/a44726660edc8a294fb6dd4e928fe0366326705a/?at=inclass"
+			}
+		],
+		"active": 1
+	},
+	{
 		"date": "9/9",
 		"units": [
 			{
@@ -73,34 +110,6 @@
 			}
 		],
 		"active": 1
-	},
-	{
-		"date": "9/16",
-		"units": [
-			{
-				"subject": "OOJS 2 - Constructors and Prototypes",
-				"link": "oojs2"
-			}
-		],
-		"active": 0
-	},
-	{
-		"date": "9/23",
-		"units": [
-			{
-				"subject": "Google Maps JavaScript API",
-				"link": "google-maps"
-			},
-			{
-				"subject": "Geolocation API",
-				"link": "geolocation"
-			},
-			{
-				"subject": "Quiz 1 Study Guide",
-				"link": "quiz1-study-guide"
-			}
-		],
-		"active": 0
 	},
 	{
 		"date": "9/30",

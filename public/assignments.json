@@ -19,5 +19,19 @@
 		"due": "9/16",
 		"id": "rotten-tomatoes-search",
 		"active": 1
+	},
+	{
+		"name": "Reviews Report Constructor",
+		"type": "A",
+		"due": "9/23",
+		"id": "oojs2",
+		"active": 1
+	},
+	{
+		"name": "Position Locator",
+		"type": "A",
+		"due": "9/30",
+		"id": "position-mapper",
+		"active": 1
 	}
 ]

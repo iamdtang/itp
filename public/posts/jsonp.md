@@ -15,7 +15,7 @@ https://graph.facebook.com/cocacola
 
 A JS object created using an object literal might look like this:
 
-```
+```js
 {
   name: 'Fiona',
   age: 1.5,
@@ -25,7 +25,7 @@ A JS object created using an object literal might look like this:
 
 The equivalent of this JavaScript object formatted to JSON requirements is:
 
-```
+```js
 {
   "name": "Fiona",
   "age": 1.5,
@@ -60,11 +60,11 @@ If you recall, the script tag is not restricted by the same origin policy. For e
 With this in mind, why don't we dynamiclaly create a script element on our page that references the JSON served from another domain?
 
 
-```
+```js
 var script = document.createElement('script');
 script.src = "https://graph.facebook.com/cocacola";
 document.getElementsByTagName('head')[0].appendChild(script);
-```
+``` 
 
 Scripts injected into the page dynamically like this are __asynchronous__ requests like AJAX.
 
@@ -76,18 +76,23 @@ Typically this is achieved by passing a query string parameter named 'callback' 
 
 __https://graph.facebook.com/cocacola?callback=myFunction__
 
-```
+```js
 	var script = document.createElement('script');
 	script.src = "https://graph.facebook.com/cocacola?callback=myFunction";
 	document.getElementsByTagName('head')[0].appendChild(script);
-```
+``` 
 
 The API has to allow for this functionality, but if they do, they will return JSON data wrapped within a function call named whatever your function name is, which in this case is 'myFunction'.
 
 When the request returns, the response will look like something like this:
 
-```
+```js
 myFunction({"name": "Coca Cola", "likes": 98463, "about": "some text here"})
 ```
 
 You will need to have myFunction predfined on the page accessible in the __global__ scope, but this allows us to utilize all the JSON data that we are requesting.
+
+
+
+
+

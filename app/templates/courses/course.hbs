@@ -9,6 +9,11 @@
     {{#each activeLectures as |lecture|}}
       <div class="lecture">
         <p class="lecture-date">{{lecture.date}}</p>
+
+        {{#if lecture.title}}
+          <h4>{{lecture.title}}</h4>
+        {{/if}}
+
         {{#each lecture.units as |unit|}}
           {{lecture-unit unit=unit}}
         {{/each}}
