@@ -2,11 +2,13 @@ import DS from 'ember-data';
 import Ember from 'ember';
 
 export default DS.Adapter.extend({
-  getJSONFile() {
+  createCache: Ember.on('init', function() {
     if (!this.cache) {
       this.cache = {};
     }
+  }),
 
+  getJSONFile() {
     if (this.cache['courses.json']) {
       return this.cache['courses.json'];
     }

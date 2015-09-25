@@ -13,11 +13,13 @@ export default ApplicationAdapter.extend({
     return 'assignments.json';
   },
 
-  getJSONFile() {
+  createCache: Ember.on('init', function() {
     if (!this.cache) {
       this.cache = {};
     }
+  }),
 
+  getJSONFile() {
     if (this.cache['assignments.json']) {
       return this.cache['assignments.json'];
     }
@@ -27,10 +29,6 @@ export default ApplicationAdapter.extend({
   },
 
   getAssignmentContent(id) {
-    if (!this.cache) {
-      this.cache = {};
-    }
-
     if (this.cache[id]) {
       return this.cache[id];
     }
