@@ -1,4 +1,22 @@
 <div class="container">
+  <nav>
+    <ul class="nav nav-pills">
+      <li role="presentation">
+        {{#link-to 'index'}}
+          Home
+        {{/link-to}}
+      </li>
+      <li role="presentation">
+        {{#link-to 'jobs'}}Jobs{{/link-to}}
+      </li>
+      <li role="presentation">
+        <a href="https://www.youtube.com/channel/UCLhLYSysw4juedNhsXGo7Vw?feature=watch" target="_blank">
+          Lectures
+        </a>
+      </li>
+    </ul>
+  </nav>
+
   {{outlet}}
 
   <div class="row">

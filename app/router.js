@@ -17,6 +17,7 @@ Router.map(function() {
     });
   });
   this.route('assignment', { path: 'assignments/:id' });
+  this.route('jobs');
 });
 
 export default Router;

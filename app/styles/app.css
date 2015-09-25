@@ -26,3 +26,17 @@ footer {
   font-size: 12px;
   text-align: center;
 }
+
+.nav {
+  background-color: #444;
+}
+
+.nav a {
+  color: white;
+}
+
+/* Bootstrap overrides */
+nav .nav > li > a:hover, nav .nav > li > a:focus {
+  background: none !important;
+  text-decoration: underline;
+}
