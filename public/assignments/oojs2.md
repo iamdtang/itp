@@ -62,86 +62,86 @@ The _convertCostToDollarSign(cost)_ method takes a cost between values 1 and 4, 
 var reviews = {};
 
 reviews.restaurantA = [
-	{ 
-		title: 'whatever title you want', 
-		stars: 4, 
+	{
+		title: 'whatever title you want',
+		stars: 4,
 		cost: 2,
-		description: '' 
+		description: ''
 	},
-	{ 
-		title: 'whatever title you want', 
-		stars: 3, 
+	{
+		title: 'whatever title you want',
+		stars: 3,
 		cost: 1,
-		description: '' 
+		description: ''
 	},
-	{ 
-		title: 'whatever title you want', 
-		stars: 4, 
+	{
+		title: 'whatever title you want',
+		stars: 4,
 		cost: 3,
-		description: '' 
+		description: ''
 	},
-	{ 
-		title: 'whatever title you want', 
-		stars: 4, 
+	{
+		title: 'whatever title you want',
+		stars: 4,
 		cost: 3,
-		description: '' 
+		description: ''
 	},
-	{ 
-		title: 'whatever title you want', 
-		stars: 5, 
+	{
+		title: 'whatever title you want',
+		stars: 5,
 		cost: 2,
-		description: '' 
+		description: ''
 	},
-	{ 
-		title: 'whatever title you want', 
-		stars: 3, 
+	{
+		title: 'whatever title you want',
+		stars: 3,
 		cost: 2,
-		description: '' 
+		description: ''
 	}
 ];
 
 reviews.restaurantB = [
-	{ 
-		title: 'whatever title you want', 
-		stars: 5, 
+	{
+		title: 'whatever title you want',
+		stars: 5,
 		cost: 3,
-		description: '' 
+		description: ''
 	},
-	{ 
-		title: 'whatever title you want', 
-		stars: 3, 
+	{
+		title: 'whatever title you want',
+		stars: 3,
 		cost: 4,
-		description: '' 
+		description: ''
 	},
-	{ 
-		title: 'whatever title you want', 
-		stars: 4, 
+	{
+		title: 'whatever title you want',
+		stars: 4,
 		cost: 4,
-		description: '' 
+		description: ''
 	},
-	{ 
-		title: 'whatever title you want', 
-		stars: 5, 
+	{
+		title: 'whatever title you want',
+		stars: 5,
 		cost: 4,
-		description: '' 
+		description: ''
 	},
-	{ 
-		title: 'whatever title you want', 
-		stars: 2, 
+	{
+		title: 'whatever title you want',
+		stars: 2,
 		cost: 3,
-		description: '' 
+		description: ''
 	},
-	{ 
-		title: 'whatever title you want', 
-		stars: 5, 
+	{
+		title: 'whatever title you want',
+		stars: 5,
 		cost: 4,
-		description: '' 
+		description: ''
 	},
-	{ 
-		title: 'whatever title you want', 
-		stars: 5, 
+	{
+		title: 'whatever title you want',
+		stars: 5,
 		cost: 5,
-		description: '' 
+		description: ''
 	}
 ];
 ```
