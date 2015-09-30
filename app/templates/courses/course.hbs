@@ -3,6 +3,24 @@
 </div>
 
 <div class="row">
+  <div class="col-md-12">
+    {{#liquid-if showDetails}}
+      <p>
+        Semester: {{model.semester}} {{model.year}}
+      </p>
+      <p>
+        Time: {{model.time}}
+      </p>
+      <p>
+        <a href="{{model.syllabus}}" target="_blank">Syllabus</a>
+      </p>
+    {{else}}
+      <a href="" {{action 'viewCourseDetails'}}>View Course Details</a>
+    {{/liquid-if}}
+  </div>
+</div>
+
+<div class="row">
   <div class="col-md-7">
     <h3 class="block-title">Lectures</h3>
 

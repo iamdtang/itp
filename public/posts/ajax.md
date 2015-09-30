@@ -71,20 +71,18 @@ var promise = $.ajax({
 	}
 });
 
-promise.done(function(response) {
+promise.then(function(response) {
 	$('#ajaxResponse').html(response);
 });
 
-promise.done(function(response) {
+promise.then(function(response) {
 	$('#ajaxResponse').css('color', 'red');
-});
-
-promise.fail(function() {
+}, function() {
 	alert('Aw snap! Something went wrong!');
 });
-``` 
+```
 
-As you can see, we can attach multiple SUCCESS callbacks to this promise by calling the __done()__ method on the promise object. Likewise, we can call __fail()__ to specify callback functions to run when an AJAX request fails. An ajax request might fail if there was a problem on the backend and the HTTP code returned was not 200.
+As you can see, we can attach multiple SUCCESS callbacks to this promise by calling the __then()__ method on the promise object. Likewise, we can pass a function as a 2nd argument to specify callback functions to run when an AJAX request fails. An ajax request might fail if there was a problem on the backend and the HTTP code returned was not 200.
 
 Interally, the promise object will store all of your functions and when the AJAX request SUCCESSFULLY finishes, it will execute all of them.
 
@@ -104,11 +102,11 @@ var promise = $.ajax({
 
 * create an XHR object using XMLHttpRequest constructor
 * __onreadystatechange__	stores a function (or the name of a function) to be called automatically each time the __readyState__ property changes
-* __readyState__	holds the status of the XMLHttpRequest. Changes from 0 to 4: 
-	* 0: request not initialized 
+* __readyState__	holds the status of the XMLHttpRequest. Changes from 0 to 4:
+	* 0: request not initialized
 	* 1: server connection established
-	* 2: request received 
-	* 3: processing request 
+	* 2: request received
+	* 3: processing request
 	* 4: request finished and response is ready
 * __status__:	200: "OK", 404: Page not found
 * __responseText__ property holds the response data as a string

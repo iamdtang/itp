@@ -33,5 +33,12 @@
 		"due": "9/30",
 		"id": "position-mapper",
 		"active": 1
+	},
+	{
+		"name": "AJAX and Promises",
+		"type": "A",
+		"due": "10/7",
+		"id": "ajax-and-promises",
+		"active": 1
 	}
 ]

@@ -82,6 +82,16 @@ body {
   margin-bottom: 20px;
 }
 
+.lecture {
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.lecture:nth-child(2) {
+  border: 0;
+}
+
 .lecture-date {
   font-style: italic;
   font-size: 11px;

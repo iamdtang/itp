@@ -1,5 +1,26 @@
 [
 	{
+		"date": "9/29",
+		"units": [
+			{
+				"subject": "Quiz 1"
+			},
+			{
+				"subject": "AJAX and Promises",
+				"link": "ajax"
+			},
+			{
+				"subject": "REST",
+				"link": "rest-design-principles"
+			},
+			{
+				"subject": "Shaping up with Angular",
+				"link": "https://www.codeschool.com/courses/shaping-up-with-angular-js"
+			}
+		],
+		"active": 1
+	},
+	{
 		"date": "9/23",
 		"units": [
 			{

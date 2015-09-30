@@ -20,7 +20,8 @@
   	"time": "Wednesdays 6-8:50pm",
   	"office_hours": "TBA",
     "assignments": [
-      "accordion", "bookmark-widget", "rotten-tomatoes-search", "oojs2", "position-mapper" 
+      "accordion", "bookmark-widget", "rotten-tomatoes-search", "oojs2", "position-mapper",
+      "ajax-and-promises" 
     ],
     "active": true
   },
