@@ -14,6 +14,10 @@
 				"link": "rest-design-principles"
 			},
 			{
+				"subject": "Demo",
+				"link": "https://bitbucket.org/skaterdav85/ajax-and-promises/src/d1a6737d33b561a7153aa23374e61e4343f6f185?at=master"
+			},
+			{
 				"subject": "Shaping up with Angular",
 				"link": "https://www.codeschool.com/courses/shaping-up-with-angular-js"
 			}
