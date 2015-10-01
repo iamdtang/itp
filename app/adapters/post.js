@@ -1,11 +1,12 @@
 import ApplicationAdapter from './application';
+import Ember from 'ember';
 
 export default ApplicationAdapter.extend({
   // urlForFindRecord(id, modelName, snapshot) {
   //   return 'posts/' + id + '.md';
   // },
 
-  findRecord(store, type, id, snapshot) {
+  findRecord(store, type, id /*, snapshot */) {
     if (!this.cache) {
       this.cache = {};
     }
@@ -16,6 +17,6 @@ export default ApplicationAdapter.extend({
 
     return this.cache[id] = Ember.$.ajax({
       url: 'posts/' + id + '.md'
-    })
+    });
   }
 });

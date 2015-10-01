@@ -25,7 +25,7 @@ export default Ember.Route.extend({
     controller.set('model', model.course);
   },
 
-  renderTemplate(controller, model) {
+  renderTemplate(controller /*, model */) {
     this.render('courses.course', {
       controller: controller,
       into: 'application'

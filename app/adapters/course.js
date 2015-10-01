@@ -17,7 +17,7 @@ export default DS.Adapter.extend({
     return this.cache['courses.json'];
   },
 
-  urlForFindMany(ids, modelName, snapshots) {
+  urlForFindMany(/* ids, modelName, snapshots */) {
     return 'courses.json';
   },
 
@@ -25,8 +25,8 @@ export default DS.Adapter.extend({
     return this.getJSONFile();
   },
 
-  findRecord(store, type, id, snapshot) {
-    return new Ember.RSVP.Promise((resolve, reject) => {
+  findRecord(store, type, id /*, snapshot */) {
+    return new Ember.RSVP.Promise((resolve) => {
       this.getJSONFile().then((courses) => {
         courses.find((course) => {
           if (course.id === id) {

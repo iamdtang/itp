@@ -9,7 +9,7 @@ export default ApplicationAdapter.extend({
   //   this._super(modelName, id, snapshot, requestType, query);
   // },
 
-  urlForFindMany(ids, modelName, snapshots) {
+  urlForFindMany(/* ids, modelName, snapshots */) {
     return 'assignments.json';
   },
 
@@ -40,25 +40,22 @@ export default ApplicationAdapter.extend({
     return this.cache[id];
   },
 
-  findMany(store, type, ids, snapshots) {
-    return new Ember.RSVP.Promise((resolve, reject) => {
+  findMany(store, type, ids /*, snapshots */) {
+    return new Ember.RSVP.Promise((resolve) => {
       this.getJSONFile().then((allAssignments) => {
         // console.log(assignments, ids)
         var assignments = allAssignments.filter((assignment) => {
           if (ids.indexOf(assignment.id) > -1) {
-            return true
+            return true;
           }
         });
 
         resolve(assignments);
       });
     });
-
-
-    return this.buildURL()
   },
 
-  findRecord(store, type, id, snapshot) {
+  findRecord(store, type, id /*, snapshot */) {
     return Ember.RSVP.hash({
       assignments: this.getJSONFile(),
       assignmentContent: this.getAssignmentContent(id)
