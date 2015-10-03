@@ -21,7 +21,7 @@
   	"office_hours": "TBA",
     "assignments": [
       "accordion", "bookmark-widget", "rotten-tomatoes-search", "oojs2", "position-mapper",
-      "ajax-and-promises" 
+      "ajax-and-promises", "angular1"
     ],
     "active": true
   },

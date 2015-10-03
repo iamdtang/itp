@@ -40,5 +40,12 @@
 		"due": "10/7",
 		"id": "ajax-and-promises",
 		"active": 1
+	},
+	{
+		"name": "Angular 1",
+		"type": "A",
+		"due": "10/14",
+		"id": "angular1",
+		"active": 1
 	}
 ]

@@ -1,5 +1,23 @@
 [
 	{
+		"date": "10/7",
+		"units": [
+			{
+				"subject": "Intro to Angular",
+				"link": "angular-part-1"
+			},
+			{
+				"subject": "Demo",
+				"link": "https://bitbucket.org/skaterdav85/angular-1-2015/src"
+			},
+			{
+				"subject": "Midterm Project",
+				"link": ""
+			}
+		],
+		"active": 1
+	},
+	{
 		"date": "9/29",
 		"units": [
 			{
@@ -135,211 +153,5 @@
 			}
 		],
 		"active": 1
-	},
-	{
-		"date": "9/30",
-		"units": [
-			{
-				"subject": "Quiz 1",
-				"link": ""
-			},
-			{
-				"subject": "Class demo starter files",
-				"link": "https://github.com/ITP-Webdev/jquery-from-scratch"
-			},
-			{
-				"subject": "Building jQuery from scratch",
-				"link": "jquery-from-scratch"
-			}
-		],
-		"active": 0
-	},
-	{
-		"date": "10/7",
-		"units": [
-			{
-				"subject": "Intro to PHP and server-side proxies",
-				"link": "phpintro"
-			}
-		],
-		"active": 0
-	},
-	{
-		"date": "10/14",
-		"units": [
-			{
-				"subject": "AJAX and Promises",
-				"link": "ajax"
-			},
-			{
-				"subject": "Starter demo files",
-				"link": "https://github.com/ITP-Webdev/404-ajax-2014/tree/master"
-			},
-			{
-				"subject": "Completed demo",
-				"link": "https://github.com/ITP-Webdev/404-ajax-2014/tree/final"
-			}
-		],
-		"active": 0
-	},
-	{
-		"date": "10/21",
-		"units": [
-			{
-				"subject": "Intro to testing and TDD (Slides)",
-				"link": "https://www.dropbox.com/s/pt6txr7zcvtqgph/unit-testing-js.pdf?dl=0"
-			},
-			{
-				"subject": "Jasmine installation",
-				"link": "jasmine-install"
-			},
-			{
-				"subject": "Backends as a Service with Parse (Optional Lab)",
-				"link": "https://github.com/ITP-Webdev/parse-demo"
-			}
-		],
-		"active": 0
-	},
-	{
-		"date": "10/28",
-		"units": [
-			{
-				"subject": "Backbone.js ­- Models, Views, & Collections",
-				"link": "backbone1"
-			},
-			{
-				"subject": "Demo files",
-				"link": "https://github.com/ITP-Webdev/backbone1-2014"
-			},
-			{
-				"subject": "Quiz 2 Study Guide",
-				"link": "quiz2-study-guide"
-			}
-		],
-		"active": 0
-	},
-	{
-		"date": "11/4",
-		"units": [
-			{
-				"subject": "Quiz 2",
-				"link": ""
-			},
-			{
-				"subject": "Backbone.js ­continued",
-				"link": "backbone2"
-			}
-		],
-		"active": 0
-	},
-	{
-		"date": "11/11",
-		"units": [
-			{
-				"subject": "Angular.js part 1",
-				"link": "angular-part-1"
-			},
-			{
-				"subject": "Demo starter files",
-				"link": "https://github.com/ITP-Webdev/angular1-2014"
-			}
-		],
-		"active": 0
-	},
-	{
-		"date": "11/18",
-		"units": [
-			{
-				"subject": "Angular.js part 2",
-				"link": "angular-part-2"
-			},
-			{
-				"subject": "starter files",
-				"link": "https://bitbucket.org/skaterdav85/angular2-2014/get/starter.zip"
-			}
-		],
-		"active": 0
-	},
-	{
-		"date": "11/25",
-		"units": [
-			{
-				"subject": "No class - Recorded lecture on Unit Testing part 2",
-				"link": ""
-			}
-		],
-		"active": 0
-	},
-	{
-		"date": "12/2",
-		"units": [
-			{
-				"subject": "Presentations / Final Project Due",
-				"link": ""
-			}
-		],
-		"active": 0
-	},
-	{
-		"date": "11/5",
-		"units": [
-			{
-				"subject": "Data storage APIs, Parse",
-				"link": "data-storage-apis"
-			},
-			{
-				"subject": "$.data()",
-				"link": "jquery-data"
-			}
-		],
-		"active": 0
-	},
-	{
-		"date": "11/12",
-		"units": [
-			{
-				"subject": "JavaScript Frameworks - Angular.js part 1",
-				"link": "angular-part-1"
-			},
-			{
-				"subject": "Quiz 2 study guide",
-				"link": "quiz2-study-guide"
-			}
-		],
-		"active": 0
-	},
-	{
-		"date": "11/19",
-		"units": [
-			{
-				"subject": "JavaScript Frameworks - Angular.js part 2",
-				"link": "angular-part-2"
-			},
-			{
-				"subject": "Starter files",
-				"link": "http://itpwebdev.usc.edu/starters/404/angular-itunes-search.zip"
-			},
-			{
-				"subject": "Quiz 2",
-				"link": ""
-			}
-		],
-		"active": 0
-	},
-	{
-		"date": "12/3",
-		"units": [
-			{
-				"subject": "Real-time with Websockets",
-				"link": "websockets"
-			}
-		],
-		"active": 0
-	},
-	{
-		"date": "Tuesday 12/17 at 7pm",
-		"units": [
-			{"subject": "Project Presentations", "link": ""}
-		]
 	}
 ]

@@ -1,18 +1,27 @@
-Angular.js
-==========
+Angular 1
+=======
 
-### Part 1 - Gradebook Statistics
+Take the previous assignment and rewrite it using Angular. Feel free to use Bootstrap for styling. To start, create an angular module called `music`. Also, create a controller called `MusicController`. This assignment uses AJAX, so it requires you to run a local server.
 
-From the demo we did in class, add 2 more statistics to the summary table: the lowest and highest scores. You will need to add method(s) to the _gradeStats_ service to figure out the lowest and highest scores, and bind these values to your view through the controller.
+### 1. List all artists
 
-### Part 2 - Rotten Tomatoes API Search
+* Using AJAX via the built in `$http` service, specifically the [$http.get()](https://docs.angularjs.org/api/ng/service/$http#get) method, fetch all artists from the following endpoint: [https://itp-api.herokuapp.com/artists](https://itp-api.herokuapp.com/artists)
+* Render these artists in a left sidebar using the `ng-repeat` directive
 
-Create a new angular application that allows you to search the rotten tomatoes API and displays the results on the page. Start by creating a form at the top of the page with an input and a submit button. When the form is submitted, you will make a JSONP request using angular's $http service to fetch results from the Rotten Tomatoes API and bind those results to the view.
+### 2. Render songs for a selected artist
 
-Also, be sure to do the following:
+* Initially show a message to the user "Please select an artist"
+* When a user clicks on one of the artists, make an AJAX call to: [https://itp-api.herokuapp.com/songs](https://itp-api.herokuapp.com/songs)
+* Filter down this list to the set of songs that match the selected artist and render
+  * the "id" property from the list of artists maps to the "artistId" property in the list of songs
+* Once an artist is selected, the message "Please select an artist" should be removed
 
-* Create a module called 'movies'
-* Create a controller called MoviesController
-* Use the $http service, namely the [jsonp()](https://docs.angularjs.org/api/ng/service/$http#jsonp) method, to make a JSONP call to the rotten tomatoes API to fetch results for a search term
+### Optional
 
-When you are finished, post links to both pages on your classpage.
+* Move your artist API call to a dedicated service using the `.factory()` API and call it `artist`. Create a method called `all()` on it that makes the AJAX call.
+* Similarly, do the same for songs
+* Apply a unique style to the selected artist using the `ng-class` directive
+
+### Submission
+
+As always, send a zip file to the TA and myself.
