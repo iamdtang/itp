@@ -44,7 +44,7 @@
       {{#each model.assignments as |assignment|}}
         <li>
           {{#link-to 'assignment' assignment.id}}
-            {{assignment.name}}
+            {{assignment.name}} due {{assignment.due}}
           {{/link-to}}
         </li>
       {{/each}}
