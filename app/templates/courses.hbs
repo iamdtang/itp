@@ -4,7 +4,7 @@
   Please choose a course to visit the class site.
 </p>
 
-<ul>
+<ul id="course-list">
   {{#each activeCourses as |course|}}
     <li>
       {{#link-to 'courses.course' course.id}}

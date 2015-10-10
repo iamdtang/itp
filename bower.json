@@ -14,7 +14,8 @@
     "loader.js": "ember-cli/loader.js#3.2.0",
     "qunit": "~1.17.1",
     "showdown": "~1.2.3",
-    "firebase": "^2.1.0"
+    "firebase": "^2.1.0",
+    "pretender": "^0.10.0"
   },
   "resolutions": {
     "ember": "~2.1.0",
