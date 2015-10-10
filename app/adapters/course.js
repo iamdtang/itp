@@ -30,7 +30,8 @@ export default DS.Adapter.extend({
     var key = url.substring(lastSlash, url.indexOf('.json'));
 
     return Ember.$.ajax({
-      url: url
+      url: url,
+      dataType: 'json'
     }).then(function(data) {
       var response = {};
       response[key] = data;
