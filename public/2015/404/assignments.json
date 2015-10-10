@@ -7,7 +7,7 @@
 		"links": {
 			"assignment-content": "/assignments/accordion.md"
 		},
-		"active": 1
+		"active": true
 	},
 	{
 		"name": "Bookmark Widget",
@@ -17,7 +17,7 @@
 		"links": {
 			"assignment-content": "/assignments/bookmark-widget.md"
 		},
-		"active": 1
+		"active": true
 	},
 	{
 		"name": "Rotten Tomatoes Search",
@@ -27,7 +27,7 @@
 		"links": {
 			"assignment-content": "/assignments/rotten-tomatoes-search.md"
 		},
-		"active": 1
+		"active": true
 	},
 	{
 		"name": "Reviews Report Constructor",
@@ -37,7 +37,7 @@
 		"links": {
 			"assignment-content": "/assignments/oojs2.md"
 		},
-		"active": 1
+		"active": true
 	},
 	{
 		"name": "Position Locator",
@@ -47,7 +47,7 @@
 		"links": {
 			"assignment-content": "/assignments/position-mapper.md"
 		},
-		"active": 1
+		"active": true
 	},
 	{
 		"name": "AJAX and Promises",
@@ -57,7 +57,7 @@
 		"links": {
 			"assignment-content": "/assignments/ajax-and-promises.md"
 		},
-		"active": 1
+		"active": true
 	},
 	{
 		"name": "Angular 1",
@@ -67,6 +67,6 @@
 		"links": {
 			"assignment-content": "/assignments/angular1.md"
 		},
-		"active": 1
+		"active": true
 	}
 ]

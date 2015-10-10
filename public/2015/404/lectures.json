@@ -15,7 +15,7 @@
 				"link": ""
 			}
 		],
-		"active": 1
+		"active": true
 	},
 	{
 		"date": "9/29",
@@ -40,7 +40,7 @@
 				"link": "https://www.codeschool.com/courses/shaping-up-with-angular-js"
 			}
 		],
-		"active": 1
+		"active": true
 	},
 	{
 		"date": "9/23",
@@ -62,7 +62,7 @@
 				"link": "https://bitbucket.org/skaterdav85/googlemaps-2015/src"
 			}
 		],
-		"active": 1
+		"active": true
 	},
 	{
 		"date": "9/16",
@@ -77,7 +77,7 @@
 				"link": "https://bitbucket.org/skaterdav85/404-2015-constructors/src/a44726660edc8a294fb6dd4e928fe0366326705a/?at=inclass"
 			}
 		],
-		"active": 1
+		"active": true
 	},
 	{
 		"date": "9/9",
@@ -111,7 +111,7 @@
 				"link": "https://bitbucket.org/skaterdav85/jsonp-endpoints"
 			}
 		],
-		"active": 1
+		"active": true
 	},
 	{
 		"date": "9/2",
@@ -142,7 +142,7 @@
 				"link": "http://jsbin.com/yicipanaco/edit?html,js,console,output"
 			}
 		],
-		"active": 1
+		"active": true
 	},
 	{
 		"date": "8/26",
@@ -152,6 +152,6 @@
 				"link": "overview"
 			}
 		],
-		"active": 1
+		"active": true
 	}
 ]
