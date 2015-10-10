@@ -33,15 +33,15 @@
         {{/if}}
 
         {{#each lecture.units as |unit|}}
-          {{lecture-unit unit=unit}}
+          {{lecture-unit unit=unit class="lecture-unit"}}
         {{/each}}
       </div>
     {{/each}}
   </div>
   <div class="col-md-5">
     <h3 class="block-title">Assignments</h3>
-    <ol>
-      {{#each model.assignments as |assignment|}}
+    <ol id="assignments">
+      {{#each activeAssignments as |assignment|}}
         <li>
           {{#link-to 'assignment' assignment.id}}
             {{assignment.name}} due {{assignment.due}}
