@@ -5,7 +5,7 @@ export default DS.RESTSerializer.extend({
     // console.log(store, primaryModelClass, payload, id, requestType);
     var markdown = payload;
     var response = {
-      post: {
+      "assignment-content": {
         id: id,
         markdown: markdown
       }

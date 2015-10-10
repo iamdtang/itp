@@ -1,8 +1,8 @@
 import { moduleForModel, test } from 'ember-qunit';
 
-moduleForModel('course', 'Unit | Model | course', {
+moduleForModel('assignment-content', 'Unit | Model | assignment content', {
   // Specify the other units that are required for this test.
-  needs: ['model:assignment', 'model:lecture']
+  needs: []
 });
 
 test('it exists', function(assert) {

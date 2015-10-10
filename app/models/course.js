@@ -11,5 +11,6 @@ export default DS.Model.extend({
   time: DS.attr('string'),
   office_hours: DS.attr('string'),
   assignments: DS.hasMany('assignment', { async: true }),
+  lectures: DS.hasMany('lecture', { async: true }),
   active: DS.attr('boolean')
 });

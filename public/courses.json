@@ -19,10 +19,10 @@
   	"syllabus": "https://docs.google.com/document/d/1c_I5jK-VkadLhXR9YiP_pt4531TNBVKepKh8J4wDv7E/edit?usp=sharing",
   	"time": "Wednesdays 6-8:50pm",
   	"office_hours": "TBA",
-    "assignments": [
-      "accordion", "bookmark-widget", "rotten-tomatoes-search", "oojs2", "position-mapper",
-      "ajax-and-promises", "angular1"
-    ],
+    "links": {
+      "assignments": "/2015/404/assignments.json",
+      "lectures": "/2015/404/lectures.json"
+    },
     "active": true
   },
   {

@@ -25,6 +25,19 @@ export default DS.Adapter.extend({
     return this.getJSONFile();
   },
 
+  findHasMany(store, snapshot, url) {
+    var lastSlash = url.lastIndexOf('/') + 1;
+    var key = url.substring(lastSlash, url.indexOf('.json'));
+
+    return Ember.$.ajax({
+      url: url
+    }).then(function(data) {
+      var response = {};
+      response[key] = data;
+      return response;
+    });
+  },
+
   findRecord(store, type, id /*, snapshot */) {
     return new Ember.RSVP.Promise((resolve) => {
       this.getJSONFile().then((courses) => {
