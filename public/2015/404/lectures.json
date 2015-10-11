@@ -13,6 +13,10 @@
 			{
 				"subject": "Application structure conventions",
 				"link": ""
+			},
+			{
+				"subject": "Immediately invoked function expressions",
+				"link": ""
 			}
 		],
 		"active": true
