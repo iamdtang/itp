@@ -124,3 +124,25 @@ nav .nav > li > a:hover, nav .nav > li > a:focus {
   background: none !important;
   text-decoration: underline;
 }
+
+.course {
+  list-style-type: none;
+  padding: 15px;
+  border-bottom: 1px solid white;
+}
+
+.course-list {
+  padding: 0;
+}
+
+.active-course {
+  background-color: #900;
+}
+
+.archived-course {
+  background-color: #ddd;
+}
+
+.active-course a {
+  color: white;
+}

@@ -4,9 +4,9 @@
   Please choose a course to visit the class site.
 </p>
 
-<ul id="course-list">
+<ul id="course-list" class="course-list">
   {{#each activeCourses as |course|}}
-    <li>
+    <li class="course {{if course.archived 'archived-course' 'active-course'}}">
       {{#link-to 'courses.course' course.id}}
         {{course.semester}} {{course.year}}: ITP {{course.course_number}} - {{course.course_name}}
       {{/link-to}}
