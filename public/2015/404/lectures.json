@@ -1,5 +1,23 @@
 [
 	{
+		"date": "10/14",
+		"units": [
+			{
+				"subject": "Last week continued",
+				"link": ""
+			},
+			{
+				"subject": "Routing in Angular",
+				"link": ""
+			},
+			{
+				"subject": "Isolate scoped directives (components)",
+				"link": ""
+			}
+		],
+		"active": true
+	},
+	{
 		"date": "10/7",
 		"units": [
 			{
