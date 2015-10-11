@@ -141,3 +141,13 @@ test('an active lecture shows all units', function(assert) {
     assert.equal(find('.lecture-unit').eq(2).text().trim(), 'Midterm Project');
   });
 });
+
+test('clicking on course details reveals more info', function(assert) {
+  visit('/courses/20153404');
+  assert.equal(find('#course-details a#syllabus').length, 0);
+  click('#view-course-details');
+
+  andThen(function() {
+    assert.equal(find('#course-details a#syllabus').length, 1);
+  });
+});

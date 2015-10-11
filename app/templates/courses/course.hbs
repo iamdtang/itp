@@ -3,7 +3,7 @@
 </div>
 
 <div class="row">
-  <div class="col-md-12">
+  <div class="col-md-12" id="course-details">
     {{#liquid-if showDetails}}
       <p>
         Semester: {{model.semester}} {{model.year}}
@@ -12,10 +12,10 @@
         Time: {{model.time}}
       </p>
       <p>
-        <a href="{{model.syllabus}}" target="_blank">Syllabus</a>
+        <a href="{{model.syllabus}}" target="_blank" id="syllabus">Syllabus</a>
       </p>
     {{else}}
-      <a href="" {{action 'viewCourseDetails'}}>View Course Details</a>
+      <a href="" {{action 'viewCourseDetails'}} id="view-course-details">View Course Details</a>
     {{/liquid-if}}
   </div>
 </div>
