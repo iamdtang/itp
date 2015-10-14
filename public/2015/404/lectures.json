@@ -11,12 +11,16 @@
 				"link": ""
 			},
 			{
-				"subject": "Application structure conventions",
+				"subject": "Angular application structure conventions",
 				"link": ""
 			},
 			{
-				"subject": "Immediately invoked function expressions",
+				"subject": "Immediately invoked function expressions (IIFE)",
 				"link": ""
+			},
+			{
+				"subject": "Demo (go to the week8-inclass branch)",
+				"link": "https://bitbucket.org/skaterdav85/angular-1-2015/src"
 			}
 		],
 		"active": true
