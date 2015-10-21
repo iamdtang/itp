@@ -1,5 +1,19 @@
 [
 	{
+		"date": "10/21",
+		"units": [
+			{
+				"subject": "Angular - shared and isolate scope directives",
+				"link": ""
+			},
+			{
+				"subject": "Demo",
+				"link": "https://bitbucket.org/skaterdav85/angular-week9/src"
+			}
+		],
+		"active": true
+	},
+	{
 		"date": "10/14",
 		"units": [
 			{
@@ -12,10 +26,6 @@
 			},
 			{
 				"subject": "Angular application structure conventions",
-				"link": ""
-			},
-			{
-				"subject": "Immediately invoked function expressions (IIFE)",
 				"link": ""
 			},
 			{

@@ -68,5 +68,15 @@
 			"assignment-content": "/assignments/angular1.md"
 		},
 		"active": true
+	},
+	{
+		"name": "Angular - Routing and Directives",
+		"type": "A",
+		"due": "10/28",
+		"id": "angular-part2",
+		"links": {
+			"assignment-content": "/assignments/angular-part2.md"
+		},
+		"active": true
 	}
 ]
