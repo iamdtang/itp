@@ -78,5 +78,15 @@
 			"assignment-content": "/assignments/angular-part2.md"
 		},
 		"active": true
+	},
+	{
+		"name": "Final Project",
+		"type": "P",
+		"due": "12/6 at noon",
+		"id": "final-project",
+		"links": {
+			"assignment-content": "/assignments/final-project.md"
+		},
+		"active": true
 	}
 ]

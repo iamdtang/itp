@@ -1,5 +1,23 @@
 [
 	{
+		"date": "10/28",
+		"units": [
+			{
+				"subject": "Intro to Node, Express, and CommonJS",
+				"link": ""
+			},
+			{
+				"subject": "Working with APIs in Node",
+				"link": ""
+			},
+			{
+				"subject": "Demo",
+				"link": ""
+			}
+		],
+		"active": true
+	},
+	{
 		"date": "10/21",
 		"units": [
 			{
