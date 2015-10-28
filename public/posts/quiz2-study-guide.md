@@ -4,6 +4,7 @@ Quiz 2 Study Guide
 * Written
 * 25 minutes long
 * Multiple choice, fill in the blank, short answer, True/False
+* Lecture will start after the quiz so class will be a little longer than usual
 
 __This quiz is mostly theory__
 

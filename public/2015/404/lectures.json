@@ -11,8 +11,16 @@
 				"link": ""
 			},
 			{
+				"subject": "REST",
+				"link": "rest-design-principles"
+			},
+			{
+				"subject": "Teach a Dog to REST",
+				"link": "http://vimeo.com/17785736"
+			},
+			{
 				"subject": "Demo",
-				"link": ""
+				"link": "https://bitbucket.org/skaterdav85/apis-with-node/src"
 			}
 		],
 		"active": true
@@ -80,10 +88,6 @@
 			{
 				"subject": "AJAX and Promises",
 				"link": "ajax"
-			},
-			{
-				"subject": "REST",
-				"link": "rest-design-principles"
 			},
 			{
 				"subject": "Demo",

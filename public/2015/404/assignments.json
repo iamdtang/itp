@@ -80,6 +80,16 @@
 		"active": true
 	},
 	{
+		"name": "APIs with Node",
+		"type": "A",
+		"due": "11/4",
+		"id": "apis-with-node",
+		"links": {
+			"assignment-content": "/assignments/apis-with-node.md"
+		},
+		"active": true
+	},
+	{
 		"name": "Final Project",
 		"type": "P",
 		"due": "12/6 at noon",
