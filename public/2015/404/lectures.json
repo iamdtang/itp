@@ -19,6 +19,10 @@
 				"link": "http://vimeo.com/17785736"
 			},
 			{
+				"subject": "What the Heck is OAuth?",
+				"link": "https://stormpath.com/blog/what-the-heck-is-oauth/"
+			},
+			{
 				"subject": "Demo",
 				"link": "https://bitbucket.org/skaterdav85/apis-with-node/src"
 			}
