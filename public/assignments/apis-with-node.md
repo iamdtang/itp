@@ -11,4 +11,4 @@ Lastly, place a comment above your route definition with a URL that we can test 
 
 ### Submission
 
-As always, send a zip file to the TA and myself.
+As always, send a zip file to the TA and myself __WITHOUT the node_modules directory__.
