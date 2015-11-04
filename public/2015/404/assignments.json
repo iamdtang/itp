@@ -98,5 +98,15 @@
 			"assignment-content": "/assignments/final-project.md"
 		},
 		"active": true
+	},
+	{
+		"name": "Unit Testing in Angular",
+		"type": "A",
+		"due": "11/11",
+		"id": "unit-testing",
+		"links": {
+			"assignment-content": "/assignments/unit-testing.md"
+		},
+		"active": true
 	}
 ]

@@ -1,39 +1,44 @@
 Unit Testing
 ============
 
-For this assignment, we are going to revisit the ReviewsReport constructor assignment and write unit tests for it using the Jasmine 1.3 testing framework. You can either use the HTML page spec runner that Jasmine provides or Karma.
+In this assignment, you are going write unit tests using the Jasmine testing framework, Karma, and PhantomJS.
 
-Write tests for the following methods:
+### ReviewsReport (non-Angular)
 
-* report.getAverageRating()
-* report.getAverageCost()
-* report.convertCostToDollarSign()
-* report.summarize()
+First, you are going to revisit the `ReviewsReport` constructor assignment. Write tests for the following methods using similarly structured data as in the Reviews Report assignment:
 
-For the data, you dont have to use the same data that I provided last time. You can use different fixture data in the tests.
+* `report.getAverageRating()`
+* `report.getAverageCost()`
+* `report.convertCostToDollarSign()`
+	* Be sure to cover all code paths that the method can take. There should be a test for each if/else branch.
+* `report.summarize()`
+	* Use the same data that I provided last time.
 
-Once you get your tests passing, refactor the _getAverageRating()_ and _getAverageCost()_ methods to use the native _.forEach()_ method on arrays instead of a _for_ loop. The _forEach_ method is a method on Array.prototype implemented in modern browsers.
+Here is the solution to the previous assignment if you'd like to start with this instead of your own:
 
+[https://bitbucket.org/skaterdav85/reviews-report-constructor/src/8c1aaee74f5585c5637bbbfb9f9503a337622a80/ReviewsReport.js?at=master](https://bitbucket.org/skaterdav85/reviews-report-constructor/src/8c1aaee74f5585c5637bbbfb9f9503a337622a80/ReviewsReport.js?at=master)
+
+### orders.getTotalSpent() (Angular)
+
+Create a unit using `$httpBackend` for the following Angular service:
+
+Create an Angular service using `.factory()` called `orders` with a method `getTotalSpent()`. This method will make an HTTP GET request to `https://some-shopping-site.com/orders` and will respond with the following JSON:
+
+```json
+{
+	"orders": [
+		{ "id": "1234", "total": 56.99 },
+		{ "id": "1234", "total": 6.99 },
+		{ "id": "1234", "total": 5.99 },
+		{ "id": "1234", "total": 9.00 },
+		{ "id": "1234", "total": 8.03 },
+		{ "id": "1234", "total": 87.00 }
+	]
+}
 ```
-var myArray = [1, 2, 7];
 
-myArray.forEach(function(num) {
-	console.log(num);
-});
+This method should resolve with a single number that is the sum of the `total` property for all orders.
 
-// 1
-// 2
-// 7
-```
+### Submission
 
-Your tests should not require any changes in order to pass. You are simply changing the implementation of _getAverageRating()_ and _getAverageCost()_ but the return values of these methods are still the same.
-
-### findWithLowestRating(number)
-
-Lastly, create a method called _findWithLowestRating(number)_ on the ReviewsReport prototype. When this method is called, it should return a new array of all objects where the rating is greater than or equal to the _number_ parameter.
-
-```js
-report.findWithLowestRating(3); // matches all reviews with a rating of 3 or more
-```
-
-Here is the solution to the previous assignment if you'd like to start with this instead of your own: https://bitbucket.org/skaterdav85/reviews-report-constructor/src/8c1aaee74f5585c5637bbbfb9f9503a337622a80/ReviewsReport.js?at=master
+Submit your assignment to the TA and myself (dtang@usc.edu) as a zip file and __do not include the node_modules folder__.

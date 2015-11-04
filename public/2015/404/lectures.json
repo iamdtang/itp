@@ -1,5 +1,19 @@
 [
 	{
+		"date": "11/04",
+		"units": [
+			{
+				"subject": "Unit testing and TDD in Angular with Karma, Jasmine, and PhantomJS",
+				"link": ""
+			},
+			{
+				"subject": "Demo",
+				"link": "https://bitbucket.org/skaterdav85/angular-testing/src"
+			}
+		],
+		"active": true
+	},
+	{
 		"date": "10/28",
 		"units": [
 			{
