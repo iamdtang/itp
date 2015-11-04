@@ -3,6 +3,10 @@
 		"date": "11/04",
 		"units": [
 			{
+				"subject": "Slides",
+				"link": "https://dl.dropboxusercontent.com/u/11600860/unit-testing-js-2.pdf"
+			},
+			{
 				"subject": "Unit testing and TDD in Angular with Karma, Jasmine, and PhantomJS",
 				"link": ""
 			},
