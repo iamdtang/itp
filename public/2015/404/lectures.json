@@ -1,5 +1,23 @@
 [
 	{
+		"date": "11/11",
+		"units": [
+			{
+				"subject": "Guest lecture by Bennett Lee on creating APIs",
+				"link": ""
+			},
+			{
+				"subject": "Quiz 2 study guide",
+				"link": "quiz2-study-guide"
+			},
+			{
+				"subject": "Guest lecture demo",
+				"link": "https://github.com/bennettl/API-Tasks"
+			}
+		],
+		"active": true
+	},
+	{
 		"date": "11/04",
 		"units": [
 			{
