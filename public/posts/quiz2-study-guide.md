@@ -20,6 +20,7 @@ __This quiz is mostly theory__
 ### APIs
 
 * REST
+* Guest lecture material
 * Basics of OAuth (see article on class site)
 
 ### Angular
