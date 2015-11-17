@@ -1,4 +1,22 @@
 [
+  {
+		"date": "11/18",
+		"units": [
+			{
+				"subject": "Quiz 2",
+				"link": ""
+			},
+			{
+				"subject": "Intro to React",
+				"link": ""
+			},
+			{
+				"subject": "Demo",
+				"link": "https://bitbucket.org/skaterdav85/react-intro"
+			}
+		],
+		"active": true
+	},
 	{
 		"date": "11/11",
 		"units": [
