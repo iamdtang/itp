@@ -10,7 +10,7 @@ Your final project will be a JavaScript web application on a topic of interest t
 	1. Google Maps integration
 	2. Parse / Firebase (3rd party data storage)
 	3. Integration of an additional API
-  4. Writing your own API / use another API)
+	4. Writing your own API / use another API)
 * Use one of the following frameworks/approaches: Angular OR Plain JS/jQuery with client-side templating with Handlebars. Create modules for data access and HTML rendering
 * Use of AJAX and promises
 * Use of a client-side router. If you aren't using Angular, there are many other client-side routing libraries you can use. You may want to check out Backbone's router.
