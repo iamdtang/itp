@@ -1,6 +1,7 @@
-import DS from 'ember-data';
 import env from 'itp/config/environment';
+import Firebase from 'firebase';
+import FirebaseAdapter from 'emberfire/adapters/firebase';
 
-export default DS.FirebaseAdapter.extend({
-  firebase: new window.Firebase(env.firebase)
+export default FirebaseAdapter.extend({
+  firebase: new Firebase(env.firebase)
 });
