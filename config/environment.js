@@ -4,7 +4,7 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'itp',
     environment: environment,
-    firebase: 'https://YOUR-FIREBASE-NAME.firebaseio.com/',
+    firebase: 'https://itp.firebaseio.com/',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {
@@ -18,7 +18,7 @@ module.exports = function(environment) {
       'default-src': "'none'",
       'script-src': "'self' http://cdnjs.cloudflare.com",
       'font-src': "'self'",
-      'connect-src': "'self'",
+      'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com",
       'img-src': "'self'",
       'style-src': "'self' http://cdnjs.cloudflare.com",
       'media-src': "'self'"
