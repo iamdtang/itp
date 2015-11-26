@@ -10,9 +10,10 @@ export default Ember.Route.extend({
 
   actions: {
     save(model) {
+      // refactor this validation
       if (model.get('position') && model.get('poc') && model.get('compensation') && model.get('description')) {
         model.save().then(() => {
-          this.transitionTo('jobs');
+          this.refresh();
         });
       } else {
         alert('Fill out all fields please');

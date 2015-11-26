@@ -1,6 +1,7 @@
 import Ember from 'ember';
 
 export default Ember.Controller.extend({
-  sortProperties: ['-createdAt'],
-  sortedJobs: Ember.computed.sort('model', 'sortProperties')
+  sortedJobs: Ember.computed('model.length', function() {
+    return this.get('model').sortBy('createdAt').reverseObjects();
+  })
 });
