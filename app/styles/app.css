@@ -127,8 +127,14 @@ nav .nav > li > a:hover, nav .nav > li > a:focus {
 
 .course {
   list-style-type: none;
-  padding: 15px;
   border-bottom: 1px solid white;
+}
+
+.course a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
 }
 
 .course-list {

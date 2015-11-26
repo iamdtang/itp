@@ -9,10 +9,10 @@
     <li class="course {{if course.archived 'archived-course' 'active-course'}}">
       {{#link-to 'courses.course' course.id}}
         {{course.semester}} {{course.year}}: ITP {{course.course_number}} - {{course.course_name}}
+        {{#if course.archived}}
+          (Archived)
+        {{/if}}
       {{/link-to}}
-      {{#if course.archived}}
-        (Archived)
-      {{/if}}
     </li>
   {{/each}}
 </ul>
