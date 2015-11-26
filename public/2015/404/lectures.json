@@ -1,5 +1,19 @@
 [
   {
+    "date": "12/2",
+    "units": [
+      {
+        "subject": "Deploying to Heroku",
+        "link": "heroku-404"
+      },
+      {
+        "subject": "Continuous Integration with Travis CI",
+        "link": "travis-404"
+      }
+    ],
+    "active": true
+  },
+  {
 		"date": "11/18",
 		"units": [
 			{
