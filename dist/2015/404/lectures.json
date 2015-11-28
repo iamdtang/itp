@@ -1,0 +1,287 @@
+[
+  {
+    "date": "12/2",
+    "units": [
+      {
+        "subject": "Deploying to Heroku",
+        "link": "heroku-404"
+      },
+      {
+        "subject": "Continuous Integration with Travis CI",
+        "link": "travis-404"
+      }
+    ],
+    "active": true
+  },
+  {
+		"date": "11/18",
+		"units": [
+			{
+				"subject": "Quiz 2",
+				"link": ""
+			},
+			{
+				"subject": "Intro to React and ES6",
+				"link": ""
+			},
+			{
+				"subject": "Demo",
+				"link": "https://bitbucket.org/skaterdav85/react-intro"
+			}
+		],
+		"active": true
+	},
+	{
+		"date": "11/11",
+		"units": [
+			{
+				"subject": "Guest lecture by Bennett Lee on creating APIs",
+				"link": "https://dl.dropboxusercontent.com/u/11600860/APIs.pdf"
+			},
+			{
+				"subject": "Quiz 2 study guide",
+				"link": "quiz2-study-guide"
+			},
+			{
+				"subject": "Guest lecture demo",
+				"link": "https://github.com/bennettl/API-Tasks"
+			}
+		],
+		"active": true
+	},
+	{
+		"date": "11/04",
+		"units": [
+			{
+				"subject": "Slides",
+				"link": "https://dl.dropboxusercontent.com/u/11600860/unit-testing-js-2.pdf"
+			},
+			{
+				"subject": "Unit testing and TDD in Angular with Karma, Jasmine, and PhantomJS",
+				"link": ""
+			},
+			{
+				"subject": "Demo",
+				"link": "https://bitbucket.org/skaterdav85/angular-testing/src"
+			}
+		],
+		"active": true
+	},
+	{
+		"date": "10/28",
+		"units": [
+			{
+				"subject": "Intro to Node, Express, and CommonJS",
+				"link": ""
+			},
+			{
+				"subject": "Working with APIs in Node",
+				"link": ""
+			},
+			{
+				"subject": "REST",
+				"link": "rest-design-principles"
+			},
+			{
+				"subject": "Teach a Dog to REST",
+				"link": "http://vimeo.com/17785736"
+			},
+			{
+				"subject": "What the Heck is OAuth?",
+				"link": "https://stormpath.com/blog/what-the-heck-is-oauth/"
+			},
+			{
+				"subject": "Demo",
+				"link": "https://bitbucket.org/skaterdav85/apis-with-node/src"
+			}
+		],
+		"active": true
+	},
+	{
+		"date": "10/21",
+		"units": [
+			{
+				"subject": "Angular - shared and isolate scope directives",
+				"link": ""
+			},
+			{
+				"subject": "Demo",
+				"link": "https://bitbucket.org/skaterdav85/angular-week9/src"
+			}
+		],
+		"active": true
+	},
+	{
+		"date": "10/14",
+		"units": [
+			{
+				"subject": "Last week continued",
+				"link": ""
+			},
+			{
+				"subject": "Routing & navigation",
+				"link": ""
+			},
+			{
+				"subject": "Angular application structure conventions",
+				"link": ""
+			},
+			{
+				"subject": "Demo (go to the week8-inclass branch)",
+				"link": "https://bitbucket.org/skaterdav85/angular-1-2015/src"
+			}
+		],
+		"active": true
+	},
+	{
+		"date": "10/7",
+		"units": [
+			{
+				"subject": "Intro to Angular",
+				"link": "angular-part-1"
+			},
+			{
+				"subject": "Demo",
+				"link": "https://bitbucket.org/skaterdav85/angular-1-2015/src"
+			},
+			{
+				"subject": "Midterm Project",
+				"link": ""
+			}
+		],
+		"active": true
+	},
+	{
+		"date": "9/29",
+		"units": [
+			{
+				"subject": "Quiz 1"
+			},
+			{
+				"subject": "AJAX and Promises",
+				"link": "ajax"
+			},
+			{
+				"subject": "Demo",
+				"link": "https://bitbucket.org/skaterdav85/ajax-and-promises/src/d1a6737d33b561a7153aa23374e61e4343f6f185?at=master"
+			},
+			{
+				"subject": "Shaping up with Angular",
+				"link": "https://www.codeschool.com/courses/shaping-up-with-angular-js"
+			}
+		],
+		"active": true
+	},
+	{
+		"date": "9/23",
+		"units": [
+			{
+				"subject": "Google Maps JavaScript API",
+				"link": "google-maps"
+			},
+			{
+				"subject": "Geolocation API",
+				"link": "geolocation"
+			},
+			{
+				"subject": "Quiz 1 Study Guide",
+				"link": "quiz1-study-guide"
+			},
+			{
+				"subject": "Demo",
+				"link": "https://bitbucket.org/skaterdav85/googlemaps-2015/src"
+			}
+		],
+		"active": true
+	},
+	{
+		"date": "9/16",
+		"title": "Object Oriented JavaScript - Part 2",
+		"units": [
+			{
+				"subject": "OOJS 2 - Constructor functions and Prototypes",
+				"link": "oojs2"
+			},
+			{
+				"subject": "Demo",
+				"link": "https://bitbucket.org/skaterdav85/404-2015-constructors/src/a44726660edc8a294fb6dd4e928fe0366326705a/?at=inclass"
+			}
+		],
+		"active": true
+	},
+	{
+		"date": "9/9",
+		"units": [
+			{
+				"subject": "Overview of communicating with a server, JSON, & JSONP APIs",
+				"link": "jsonp"
+			},
+			{
+				"subject": "Asynchronous Programming",
+				"link": ""
+			},
+			{
+				"subject": "Client-side templating with Handlebars.js",
+				"link": "http://handlebarsjs.com/"
+			},
+			{
+				"subject": "Event Delegation",
+				"link": ""
+			},
+			{
+				"subject": "Slides",
+				"link": "https://slides.com/davidtang/404-2015-week3"
+			},
+			{
+				"subject": "Demo",
+				"link": "https://bitbucket.org/skaterdav85/week3/src"
+			},
+			{
+				"subject": "Documentation for other JSONP endpoints",
+				"link": "https://bitbucket.org/skaterdav85/jsonp-endpoints"
+			}
+		],
+		"active": true
+	},
+	{
+		"date": "9/2",
+		"title": "Object Oriented JavaScript - Part 1",
+		"units": [
+			{
+				"subject": "Object Literals",
+				"link": "oojs1"
+			},
+			{
+				"subject": "Rules for 'this'",
+				"link": "rules-for-this"
+			},
+			{
+				"subject": "Namespacing",
+				"link": "namespacing"
+			},
+			{
+				"subject": "jQuery and 'this'",
+				"link": "jquery-and-this"
+			},
+			{
+				"subject": "Slides",
+				"link": "http://slides.com/davidtang/oojs1"
+			},
+			{
+				"subject": "Demo",
+				"link": "http://jsbin.com/yicipanaco/edit?html,js,console,output"
+			}
+		],
+		"active": true
+	},
+	{
+		"date": "8/26",
+		"units": [
+			{
+				"subject": "Course introduction",
+				"link": "overview"
+			}
+		],
+		"active": true
+	}
+]

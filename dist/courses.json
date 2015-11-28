@@ -1,0 +1,43 @@
+[
+  {
+    "id": 20161405,
+    "course_number": "405",
+    "course_name": "Professional Applications and Frameworks in Web Development",
+    "semester": "Spring",
+    "year": 2016,
+    "active": false
+  },
+  {
+    "id": 20153404,
+    "course_number": "404",
+    "course_name": "Modern Technologies in Web Development",
+    "semester": "Fall",
+    "year": 2015,
+  	"color": "orange",
+  	"instructor": "David Tang",
+  	"syllabus": "https://docs.google.com/document/d/1c_I5jK-VkadLhXR9YiP_pt4531TNBVKepKh8J4wDv7E/edit?usp=sharing",
+  	"time": "Wednesdays 6-8:50pm",
+  	"office_hours": "TBA",
+    "links": {
+      "assignments": "/2015/404/assignments.json",
+      "lectures": "/2015/404/lectures.json"
+    },
+    "active": true
+  },
+  {
+    "id": 20151405,
+    "course_number": "405",
+    "course_name": "Professional Applications and Frameworks in Web Development",
+    "semester": "Spring",
+    "year": 2015,
+    "instructor": "David Tang",
+    "syllabus": "http://web-app.usc.edu/soc/syllabus/20151/32074.pdf",
+    "time": "Tuesdays 6-8:50pm in SGM 601",
+    "links": {
+      "assignments": "/2015/405/assignments.json",
+      "lectures": "/2015/405/lectures.json"
+    },
+    "active": true,
+    "archived": true
+  }
+]

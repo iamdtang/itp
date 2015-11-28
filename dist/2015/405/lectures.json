@@ -1,0 +1,422 @@
+[
+  {
+      "date": "4/28",
+      "units": [
+        {
+          "subject": "Student Presentations",
+          "link": ""
+        },
+        {
+          "subject": "Deploying to Heroku",
+          "link": "heroku"
+        },
+        {
+          "subject": "Continuous Integration with Travis CI",
+          "link": "travis"
+        }
+      ],
+      "active": true
+    },
+    {
+      "date": "4/21",
+      "units": [
+        {
+          "subject": "Web Sockets",
+          "link": "websockets"
+        },
+        {
+          "subject": "Pusher server libraries",
+          "link": "https://pusher.com/docs/server_libraries"
+        },
+        {
+          "subject": "What is Long Polling?",
+          "link": "http://www.pubnub.com/blog/http-long-polling/"
+        },
+        {
+          "subject": "Storing configuration data in Laravel",
+          "link": "http://laravel.com/docs/5.0/configuration#accessing-configuration-values"
+        },
+        {
+          "subject": "Handlebars",
+          "link": "http://handlebarsjs.com/"
+        },
+        {
+          "subject": "toastr",
+          "link": "http://codeseven.github.io/toastr/"
+        },
+        {
+          "subject": "Class demo",
+          "link": "https://bitbucket.org/skaterdav85/itp405-laravel-2015/src/e0b06fb77b7eb2ee28c6e257aeedbb714068686a/?at=4-21-2015-class"
+        }
+      ],
+      "active": true
+    },
+    {
+      "date": "4/14",
+      "units": [
+        {
+          "subject": "Unit Testing with PHPUnit, Dependency Injection, & Mocking with Mockery",
+          "link": "unit-testing"
+        },
+        {
+          "subject": "Testing Slides",
+          "pdf": "/slides/unit-testing-php.pdf"
+        },
+        {
+          "subject": "PHPUnit",
+          "link": "https://phpunit.de/"
+        },
+        {
+          "subject": "Mockery Quick Reference",
+          "link": "http://docs.mockery.io/en/latest/reference/startup_methods.html"
+        },
+        {
+          "subject": "Laravel Facade Class Reference",
+          "link": "http://laravel.com/docs/5.0/facades#facade-class-reference"
+        },
+        {
+          "subject": "Class Demo",
+          "link": "https://bitbucket.org/skaterdav85/itp405-laravel-2015/src/ca5dbb51a32a700233c77d43c24cd2db3352d8ea/?at=4-14-2015-class"
+        }
+      ],
+      "active": true
+    },
+    {
+      "date": "4/7",
+      "units": [
+        {
+          "subject": "Node.js part 2 - Flow Control",
+          "link": "http://thejsguy.com/javascript/node.js/2014/06/27/JavaScript-Flow-Control.html"
+        },
+        {
+          "subject": "Promises",
+          "link": "promises"
+        },
+        {
+          "subject": "console.time()",
+          "link": "https://developer.mozilla.org/en-US/docs/Web/API/Console/time"
+        },
+        {
+          "subject": "Class demo",
+          "link": "https://github.com/ITP-Webdev/flow-control-exercises"
+        }
+      ],
+      "active": true
+    },
+    {
+      "date": "3/31",
+      "units": [
+        {
+          "subject": "Introduction to server-side JavaScript with Node.js",
+          "pdf": "/slides/node1-2015.pdf"
+        },
+        {
+          "subject": "Node Package Manager (NPM)",
+          "link": "https://www.npmjs.com/"
+        },
+        {
+          "subject": "Express",
+          "link": "http://expressjs.com/"
+        },
+        {
+          "subject": "Sequelize ORM",
+          "link": "http://docs.sequelizejs.com/en/latest/"
+        },
+        {
+          "subject": "Nodemon",
+          "link": "http://nodemon.io/"
+        },
+        {
+          "subject": "Class demo",
+          "link": "https://bitbucket.org/skaterdav85/node-demo-inclass-2015"
+        }
+      ],
+      "active": true
+    },
+    {
+      "date": "3/24",
+      "units": [
+        {
+          "subject": "Midterm results",
+          "link": ""
+        },
+        {
+          "subject": "Authentication",
+          "link": "http://laravel.com/docs/5.0/authentication"
+        },
+        {
+          "subject": "Middleware",
+          "link": "http://laravel.com/docs/5.0/middleware"
+        },
+        {
+          "subject": "redirect API in Laravel",
+          "link": "http://laravel.com/api/5.0/Illuminate/Routing/Redirector.html"
+        },
+        {
+          "subject": "Class demo",
+          "link": "https://bitbucket.org/skaterdav85/itp405-laravel-2015/src/fc4feff78fd1186389134920a0336a53b7f1136a/?at=3-24-2015"
+        },
+        {
+          "subject": "LAB: JavaScript overview (optional)",
+          "link": ""
+        }
+      ],
+      "active": true
+    },
+    {
+      "date": "3/17",
+      "units": [
+        {
+          "subject": "Spring Break",
+          "link": ""
+        }
+      ],
+      "active": true
+    },
+    {
+      "date": "3/10",
+      "units": [
+        {
+          "subject": "Midterm",
+          "link": ""
+        }
+      ],
+      "active": true
+    },
+    {
+      "date": "3/3",
+      "units": [
+        {
+          "subject": "What is REST?, Web APIs, Caching, and Building REST APIs",
+          "link": "rest"
+        },
+        {
+          "subject": "Download Advanced REST Client Chrome Extension",
+          "link": "https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo"
+        },
+        {
+          "subject": "Class demo",
+          "link": "https://bitbucket.org/skaterdav85/itp405-laravel-2015/src/0c7a1591d6c5130cedaa511a0f34984ec42a36de/?at=3-3-2015"
+        }
+      ],
+      "active": true
+    },
+    {
+      "date": "2/24",
+      "units": [
+        {
+          "subject": "Object Relational Mapping",
+          "pdf": "/slides/orm.pdf"
+        },
+        {
+          "subject": "Class Demo",
+          "link": "https://bitbucket.org/skaterdav85/itp405-laravel-2015/src/0dc4c3b02cdd6520c691219f88cdc48a661a5577/?at=2-24-2015"
+        }
+      ],
+      "active": true
+    },
+    {
+      "date": "2/17",
+      "units": [
+        {
+          "subject": "Working with forms",
+          "link": "working-with-forms"
+        },
+        {
+          "subject": "Blade templating and layouts",
+          "link": "http://laravel.com/docs/5.0/templates"
+        },
+        {
+          "subject": "Starter HTML",
+          "link": "https://gist.github.com/skaterdav85/acdc52722fc8603f960b"
+        },
+        {
+          "subject": "Class example",
+          "link": "https://bitbucket.org/skaterdav85/itp405-laravel-2015/src/f918f8d12fb2d43ba1da3611d79a4464eda481c4/?at=2-17-2015"
+        }
+      ],
+      "active": true
+    },
+    {
+      "date": "2/10",
+      "units": [
+        {
+          "subject": "What is MVC?",
+          "pdf": "/slides/mvc.pdf"
+        },
+        {
+          "subject": "Controllers, Views, and Models with the Query Builder in Laravel 5",
+          "link": "http://laravel.com/docs/5.0"
+        },
+        {
+          "subject": "Class demo",
+          "link": "https://bitbucket.org/skaterdav85/itp405-lecture5-2015/src"
+        }
+      ],
+      "active": true
+    },
+    {
+      "date": "2/3",
+      "units": [
+        {
+          "subject": "Namespacing, autoloading, Composer, and Flash Messages",
+          "link": "autoloading-and-namespacing"
+        },
+        {
+          "subject": "Installing Composer",
+          "link": "installing-composer"
+        },
+        {
+          "subject": "Class demo",
+          "link": "https://bitbucket.org/skaterdav85/itp405-lecture4-2015/src"
+        }
+      ],
+      "active": true
+    },
+    {
+      "date": "1/27",
+      "units": [
+        {
+          "subject": "Object Oriented Programming in PHP Overview",
+          "link": "php-oop"
+        },
+        {
+          "subject": "Reading: PHP OOS Ch 1, 2",
+          "link": "php-oos"
+        },
+        {
+          "subject": "Class demo",
+          "link": "https://bitbucket.org/skaterdav85/itp405-lecture3-2015"
+        }
+      ],
+      "active": true
+    },
+    {
+      "date": "1/20",
+      "units": [
+        {
+          "subject": "HTTP life cycle",
+          "link": ""
+        },
+        {
+          "subject": "SQL joins - inner joins, left joins, cartesian products",
+          "link": "sql-joins"
+        },
+        {
+          "subject": "PHP Data Objects (PDO)",
+          "link": "pdo"
+        },
+        {
+          "subject": "Class demo",
+          "link": "https://bitbucket.org/skaterdav85/itp405-lecture2-2015"
+        },
+        {
+          "subject": "LAB: Version Control w/ Git & Github",
+          "link": ""
+        },
+        {
+          "subject": "LAB: Object Oriented Programming Workshop 2 (optional)",
+          "link": "oop-workshop-2"
+        }
+      ],
+      "active": true
+    },
+		{
+			"date": "1/12",
+			"units": [
+				{
+					"subject": "Course Introduction",
+					"link": "introduction"
+				},
+        {
+          "subject": "Environment setup",
+          "link": ""
+        },
+				{
+					"subject": "Command Line (CLI) Basics",
+					"link": "command-line-basics"
+				},
+        {
+          "subject": "LAB: Object Oriented Programming Workshop 1 (optional)",
+          "link": "oop-workshop-1"
+        }
+			],
+			"active": true
+		},
+    {
+      "date": "3/25",
+      "units": [
+        {
+          "subject": "Integration Tests, Dependency Injection, Test Doubles",
+          "link": "https://www.dropbox.com/s/h2j3e2692aq40y3/unit-testing-mocking.pdf"
+        }
+      ],
+      "active": false
+    },
+    {
+      "date": "4/1",
+      "units": [
+        {
+          "subject": "Testing organization",
+          "link": "https://github.com/ITP-Webdev/499-class-demo"
+        },
+        {
+          "subject": "Server-side Caching, Twitter API, Configuration Data",
+          "link": "https://github.com/ITP-Webdev/499-class-demo"
+        },
+        {
+          "subject": "Web Socket servers in PHP",
+          "link": "web-socket-server"
+        }
+      ],
+      "active": false
+    },
+    {
+      "date": "4/8",
+      "units": [
+        {
+          "subject": "Guest Lecture - APIs part 2",
+          "link": ""
+        }
+      ],
+      "active": false
+    },
+    {
+      "date": "4/15",
+      "units": [
+        {
+          "subject": "Node Overview (slides)",
+          "link": ""
+        },
+        {
+          "subject": "Node.js - Part 1: Installation, NPM, building an HTTP server, Express",
+          "link": ""
+        }
+      ],
+      "active": false
+    },
+    {
+      "date": "4/22",
+      "units": [
+        {
+          "subject": "Node.js - Part 2: Common JS modules, Flow Control",
+          "link": "https://github.com/ITP-Webdev/flow-control-exercises"
+        },
+        {
+          "subject": "Optional exercises on flow control",
+          "link": "https://github.com/ITP-Webdev/node-demo1"
+        }
+      ],
+      "active": false
+    },
+    {
+      "date": "4/29",
+      "units": [
+        {
+          "subject": "Project Presentations",
+          "link": ""
+        }
+      ],
+      "active": false
+    }
+]
