@@ -1,0 +1,140 @@
+[
+  {
+		"name": "Environment setup",
+		"type": "NC",
+		"due": "1/19",
+		"id": "environment-setup",
+    "links": {
+      "assignment-content": "/assignments/environment-setup.md"
+    },
+    "active": true
+	},
+  {
+    "name": "DVD search using PDO",
+    "type": "A",
+    "due": "1/27",
+    "id": "pdo",
+    "links": {
+      "assignment-content": "/assignments/pdo.md"
+    },
+    "active": false
+  },
+  {
+    "name": "Song Insert Page - Part 1",
+    "type": "A",
+    "due": "2/3",
+    "id": "oop",
+    "links": {
+      "assignment-content": "/assignments/oop.md"
+    },
+    "active": false
+  },
+  {
+    "name": "Song Insert Page - Part 2",
+    "type": "A",
+    "due": "2/10",
+    "id": "song-insert-part2",
+    "links": {
+      "assignment-content": "/assignments/song-insert-part2.md"
+    },
+    "active": false
+  },
+  {
+    "name": "DVD Search Page (Laravel)",
+    "type": "A",
+    "due": "2/17",
+    "id": "mvc1",
+    "links": {
+      "assignment-content": "/assignments/mvc1.md"
+    },
+    "active": false
+  },
+  {
+    "name": "DVD Review Page (Laravel)",
+    "type": "A",
+    "due": "2/24",
+    "id": "mvc2",
+    "links": {
+      "assignment-content": "/assignments/mvc2.md"
+    },
+    "active": false
+  },
+  {
+    "name": "DVD Pages with Eloquent (Laravel)",
+    "type": "A",
+    "due": "3/3",
+    "id": "orm",
+    "links": {
+      "assignment-content": "/assignments/orm.md"
+    },
+    "active": false
+  },
+  {
+    "name": "APIs",
+    "type": "A",
+    "due": "3/10",
+    "id": "api",
+    "links": {
+      "assignment-content": "/assignments/api.md"
+    },
+    "active": false
+  },
+  {
+    "name": "Midterm",
+    "type": "M",
+    "id": "midterm",
+    "links": {
+      "assignment-content": "/assignments/midterm.md"
+    },
+    "active": false
+  },
+  {
+    "name": "DVD Search with Node",
+    "type": "A",
+    "id": "node1",
+    "links": {
+      "assignment-content": "/assignments/node1.md"
+    },
+    "active": false
+  },
+  {
+    "name": "Where do we put this?",
+    "type": "A",
+    "due": "3/4",
+    "id": "where-do-we-put-this",
+    "links": {
+      "assignment-content": "/assignments/where-do-we-put-this.md"
+    },
+    "active": false
+  },
+  {
+    "name": "Final Project",
+    "type": "P",
+    "due": "4/28 (last day of class)",
+    "id": "final-project",
+    "links": {
+      "assignment-content": "/assignments/final-project.md"
+    },
+    "active": false
+  },
+  {
+    "name": "Unit Testing",
+    "type": "L",
+    "due": "3/25",
+    "id": "unit-testing",
+    "links": {
+      "assignment-content": "/assignments/unit-testing.md"
+    },
+    "active": false
+  },
+  {
+    "name": "Project Starter 1",
+    "type": "L",
+    "due": "4/8",
+    "id": "project-starter1",
+    "links": {
+      "assignment-content": "/assignments/project-starter1.md"
+    },
+    "active": false
+  }
+]

@@ -5,7 +5,16 @@
     "course_name": "Professional Applications and Frameworks in Web Development",
     "semester": "Spring",
     "year": 2016,
-    "active": false
+    "color": "green",
+  	"instructor": "David Tang",
+  	"syllabus": "http://web-app.usc.edu/soc/syllabus/20161/32074.pdf",
+  	"time": "Tuesdays 6-8:50pm",
+  	"office_hours": "TBA",
+    "links": {
+      "assignments": "/2016/405/assignments.json",
+      "lectures": "/2016/405/lectures.json"
+    },
+    "active": true
   },
   {
     "id": 20153404,
@@ -22,7 +31,8 @@
       "assignments": "/2015/404/assignments.json",
       "lectures": "/2015/404/lectures.json"
     },
-    "active": true
+    "active": true,
+    "archived": true
   },
   {
     "id": 20151405,
