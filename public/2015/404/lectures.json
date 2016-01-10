@@ -1,4 +1,54 @@
 [
+  {
+    "date": "12/2",
+    "units": [
+      {
+        "subject": "Deploying to Heroku",
+        "link": "heroku-404"
+      },
+      {
+        "subject": "Continuous Integration with Travis CI",
+        "link": "travis-404"
+      }
+    ],
+    "active": true
+  },
+  {
+		"date": "11/18",
+		"units": [
+			{
+				"subject": "Quiz 2",
+				"link": ""
+			},
+			{
+				"subject": "Intro to React and ES6",
+				"link": ""
+			},
+			{
+				"subject": "Demo",
+				"link": "https://bitbucket.org/skaterdav85/react-intro"
+			}
+		],
+		"active": true
+	},
+	{
+		"date": "11/11",
+		"units": [
+			{
+				"subject": "Guest lecture by Bennett Lee on creating APIs",
+				"link": "https://dl.dropboxusercontent.com/u/11600860/APIs.pdf"
+			},
+			{
+				"subject": "Quiz 2 study guide",
+				"link": "quiz2-study-guide"
+			},
+			{
+				"subject": "Guest lecture demo",
+				"link": "https://github.com/bennettl/API-Tasks"
+			}
+		],
+		"active": true
+	},
 	{
 		"date": "11/04",
 		"units": [

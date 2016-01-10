@@ -18,7 +18,11 @@ Router.map(function() {
     });
   });
   this.route('assignment', { path: 'assignments/:id' });
-  this.route('jobs');
+  this.route('jobs', function() {});
+
+  this.route('new-job', {
+    path: 'jobs/new'
+  });
 });
 
 export default Router;

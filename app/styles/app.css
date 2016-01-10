@@ -127,8 +127,14 @@ nav .nav > li > a:hover, nav .nav > li > a:focus {
 
 .course {
   list-style-type: none;
-  padding: 15px;
   border-bottom: 1px solid white;
+}
+
+.course a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
 }
 
 .course-list {
@@ -145,4 +151,41 @@ nav .nav > li > a:hover, nav .nav > li > a:focus {
 
 .active-course a {
   color: white;
+}
+
+.job {
+  border-bottom: 1px solid #777;
+}
+
+.job:last-child {
+  border-bottom: 0;
+}
+
+.job-details {
+  list-style-type: none;
+  padding: 0;
+}
+
+.job-date {
+  text-align: right;
+  font-style: italic;
+  color: green;
+  margin-top: 15px;
+}
+
+.unread-count {
+  background: red;
+  color: white;
+  padding: 2px;
+  font-size: 7pt;
+  position: absolute;
+  top: 2px;
+  right: 0;
+  border-radius: 10px;
+  min-width: 17px;
+  text-align: center;
+}
+
+.has-unread-count {
+  position: relative;
 }

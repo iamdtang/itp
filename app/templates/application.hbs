@@ -6,9 +6,7 @@
           Home
         {{/link-to}}
       </li>
-      <li role="presentation">
-        {{#link-to 'jobs'}}Jobs{{/link-to}}
-      </li>
+      {{job-link tagName="li"}}
       <li role="presentation">
         <a href="https://www.youtube.com/channel/UCLhLYSysw4juedNhsXGo7Vw?feature=watch" target="_blank">
           Lectures
@@ -16,12 +14,8 @@
       </li>
     </ul>
   </nav>
-
   {{outlet}}
 </div>
-
-
-
 <footer class="footer">
   <span>David Tang, {{year}}</span>
 </footer>

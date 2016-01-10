@@ -2,10 +2,31 @@
   <h1>Jobs</h1>
 </div>
 
-<div class="row">
-  <div class="col-md-12">
-    <p>
-      If you'd like to post a web development opportunity (full-time, part-time, & internships) here for students, please send an email to David at dtang at usc.edu or Nayeon at nayeonki at usc.edu
-    </p>
+{{#each sortedJobs as |job|}}
+  <div class="row job">
+    <div class="col-md-12">
+      <p class="job-date">{{moment-from-now job.createdAt}}</p>
+      <h3>{{job.position}}</h3>
+      <ul class="job-details">
+        <li>
+          <i class="fa fa-usd"></i>
+          {{job.compensation}}
+        </li>
+        <li>
+          <i class="fa fa-user"></i>
+          {{job.poc}}
+        </li>
+      </ul>
+      <h5>Overview</h5>
+      {{markdown-to-html markdown=job.description ghCodeBlocks=false}}
+    </div>
   </div>
-</div>
+{{else}}
+  <div class="row">
+    <div class="col-md-12">
+      <p>
+        If you'd like to post a web development opportunity (full-time, part-time, & internships) here for students, please send an email to David at dtang at usc.edu or Nayeon at nayeonki at usc.edu
+      </p>
+    </div>
+  </div>
+{{/each}}

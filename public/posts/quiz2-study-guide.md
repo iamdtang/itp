@@ -10,35 +10,21 @@ __This quiz is mostly theory__
 
 ### Web Application Architecture
 
-That diagram I drew in class twice
+* Traditional vs API driven web apps
 
-* Browsers, HTTP, web servers, application servers, APIs
-* HTTP verbs and when each is typically used / REST. Identifying what operation a REST endpoint likely does if I give you the HTTP verb and the endpoint
+### Testing
 
-### PHP
+* Testing theory (See slides)
+* Karma vs Jasmine vs PhantomJS
 
-* Understanding why use a server side technology to interact with APIs?
+### APIs
 
-### AJAX
+* REST
+* Guest lecture material (see slides)
+* Basics of OAuth (see article on class site)
 
-* What is AJAX and why is it useful?
-* What are promises and why are they useful?
-* Examples of AJAX in web apps today
-* Key parameters when working with AJAX (url, http verb, dataType, data)
+### Angular
 
-### Testing (see slides)
-
-* What are Acceptance (end to end) tests
-* What are unit tests
-* Advantages of acceptance and unit tests
-* Differences between acceptance and unit tests
-* What is TDD and why it can be useful
-* Setting up a Jasmine test
-
-### What I wont ask
-
-* Building jQuery from scratch
-* PHP language specifics
-* Native AJAX
-* Backbone
-* Parse
+* Two way data binding
+* The different pieces of angular (services, controllers, router, templates, directives). I might give you a scenario and ask where you would put this and why?
+* How it differs from apps written with plain JS
