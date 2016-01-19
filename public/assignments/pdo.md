@@ -1,14 +1,22 @@
 DVD Search with PDO
 ================
 
-Create search and results pages using the dvd database and PDO. Name your search page __search.php__ and your results page __results.php__.
+Create search and results pages using the dvd database and PDO. Name your search page __index.php__ and your results page __results.php__. Your file structure should look like this:
 
-### Search page
+```
+/itp405-FIRSTNAME-LASTNAME-a2
+  * index.php
+  * results.php
+```
+
+Replace FIRSTNAME and LASTNAME with your first and last name.
+
+### index.php
 
 * Your search page should have a search field for the dvd_title field using an HTML input of type 'text'.
 * This page should submit to __results.php__ using the GET method
 
-### Results page
+### results.php
 
 Your results page should display what the user searched, like this:
 
@@ -35,4 +43,4 @@ Lastly, style your pages a little bit so that they are organized and somewhat pr
 
 ### Submission
 
-Create a repository on Github or Bitbucket called __itp405-spring2015-pdo-dvd__ all lowercase and push your code up to it. Email dtang@usc.edu the URL to your profile so that I can list it on the class site.
+Create a repository on Github or Bitbucket called the same as the folder name. For me, it would be __itp405-david-tang-a2__ in __all lowercase__ and push your code up to it. Email dtang@usc.edu and dongyanc@usc.edu the URL to your repository.

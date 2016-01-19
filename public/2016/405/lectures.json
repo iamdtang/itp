@@ -274,15 +274,19 @@
     "active": false
   },
   {
-    "date": "1/27",
+    "date": "1/26",
     "units": [
       {
-        "subject": "Object Oriented Programming in PHP Overview",
-        "link": "php-oop"
+        "subject": "PHP Namespacing",
+        "link": ""
       },
       {
-        "subject": "Reading: PHP OOS Ch 1, 2",
-        "link": "php-oos"
+        "subject": "What is MVC?",
+        "link": ""
+      },
+      {
+        "subject": "Laravel overview",
+        "link": ""
       },
       {
         "subject": "Class demo",
@@ -292,34 +296,34 @@
     "active": false
   },
   {
-    "date": "1/20",
+    "date": "1/19",
     "units": [
       {
-        "subject": "HTTP life cycle",
+        "subject": "HTTP life cycle overview",
         "link": ""
       },
       {
-        "subject": "SQL joins - inner joins, left joins, cartesian products",
-        "link": "sql-joins"
+        "subject": "Relational database theory review",
+        "link": "relational-db-theory"
       },
       {
         "subject": "PHP Data Objects (PDO)",
         "link": "pdo"
       },
       {
+        "subject": "SQL joins - inner joins and left joins",
+        "link": "sql-joins"
+      },
+      {
         "subject": "Class demo",
-        "link": "https://bitbucket.org/skaterdav85/itp405-lecture2-2015"
+        "link": "https://bitbucket.org/skaterdav85/itp-405-pdo-2016"
       },
       {
-        "subject": "LAB: Version Control w/ Git & Github",
-        "link": ""
-      },
-      {
-        "subject": "LAB: Object Oriented Programming Workshop 2 (optional)",
-        "link": "oop-workshop-2"
+        "subject": "LAB: Installing Laravel",
+        "link": "https://laravel.com/docs/5.2"
       }
     ],
-    "active": false
+    "active": true
   },
 	{
 		"date": "1/12",

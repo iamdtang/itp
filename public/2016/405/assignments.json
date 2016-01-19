@@ -12,12 +12,12 @@
   {
     "name": "DVD search using PDO",
     "type": "A",
-    "due": "1/27",
+    "due": "1/26",
     "id": "pdo",
     "links": {
       "assignment-content": "/assignments/pdo.md"
     },
-    "active": false
+    "active": true
   },
   {
     "name": "Song Insert Page - Part 1",
