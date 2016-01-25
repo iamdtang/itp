@@ -40,14 +40,14 @@
     "active": false
   },
   {
-    "name": "DVD Search Page (Laravel)",
+    "name": "DVD Search (Laravel)",
     "type": "A",
-    "due": "2/17",
+    "due": "2/2",
     "id": "mvc1",
     "links": {
       "assignment-content": "/assignments/mvc1.md"
     },
-    "active": false
+    "active": true
   },
   {
     "name": "DVD Review Page (Laravel)",

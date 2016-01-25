@@ -285,15 +285,15 @@
         "link": ""
       },
       {
-        "subject": "Laravel overview",
+        "subject": "Introduction to Laravel (Routes, Controllers, Views, Database Access)",
         "link": ""
       },
       {
         "subject": "Class demo",
-        "link": "https://bitbucket.org/skaterdav85/itp405-lecture3-2015"
+        "link": "https://bitbucket.org/skaterdav85/laravel1-2016"
       }
     ],
-    "active": false
+    "active": true
   },
   {
     "date": "1/19",
