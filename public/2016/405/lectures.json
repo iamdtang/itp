@@ -259,6 +259,10 @@
     "date": "2/2",
     "units": [
       {
+        "subject": "DVD search with Laravel assignment tips",
+        "link": ""
+      },
+      {
         "subject": "CRUD, insert pages, models",
         "link": "https://laravel.com/docs/5.2/session#flash-data"
       },
