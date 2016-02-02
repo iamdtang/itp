@@ -42,4 +42,4 @@ Migrate your views to use Blade Templating. Even better, take advantage of the l
 
 ### Submission
 
-To submit, push this code up to a repository named __itp405-spring2016-laravel__ on the __master__ branch. Please don't create different branches for each assignment.
+To submit, push this code up to a repository named __itp405-spring2016-laravel__ on the __master__ branch and email myself and the TA (dongyanc@usc.edu). Please don't create different branches for each assignment.
