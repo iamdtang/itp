@@ -256,22 +256,38 @@
     "active": false
   },
   {
-    "date": "2/3",
+    "date": "2/2",
     "units": [
       {
-        "subject": "Namespacing, autoloading, Composer, and Flash Messages",
-        "link": "autoloading-and-namespacing"
+        "subject": "CRUD, insert pages, models",
+        "link": "https://laravel.com/docs/5.2/session#flash-data"
       },
       {
-        "subject": "Installing Composer",
-        "link": "installing-composer"
+        "subject": "Flash messages",
+        "link": "https://laravel.com/docs/5.2/session#flash-data"
       },
       {
-        "subject": "Class demo",
-        "link": "https://bitbucket.org/skaterdav85/itp405-lecture4-2015/src"
+        "subject": "Middleware (web)",
+        "link": "https://laravel.com/docs/5.2/middleware#introduction"
+      },
+      {
+        "subject": "CSRF",
+        "link": "https://laravel.com/docs/5.2/routing#csrf-protection"
+      },
+      {
+        "subject": "Validation",
+        "link": "https://laravel.com/docs/5.2/validation"
+      },
+      {
+        "subject": "Laravel API Docs",
+        "link": "https://laravel.com/api/5.2/"
+      },
+      {
+        "subject": "Class demo (git checkout 2-2-in-class)",
+        "link": "https://bitbucket.org/skaterdav85/laravel-music-2016"
       }
     ],
-    "active": false
+    "active": true
   },
   {
     "date": "1/26",

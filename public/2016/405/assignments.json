@@ -52,12 +52,12 @@
   {
     "name": "DVD Review Page (Laravel)",
     "type": "A",
-    "due": "2/24",
+    "due": "2/9",
     "id": "mvc2",
     "links": {
       "assignment-content": "/assignments/mvc2.md"
     },
-    "active": false
+    "active": true
   },
   {
     "name": "DVD Pages with Eloquent (Laravel)",
