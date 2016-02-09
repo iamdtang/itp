@@ -62,12 +62,12 @@
   {
     "name": "DVD Pages with Eloquent (Laravel)",
     "type": "A",
-    "due": "3/3",
+    "due": "2/16",
     "id": "orm",
     "links": {
       "assignment-content": "/assignments/orm.md"
     },
-    "active": false
+    "active": true
   },
   {
     "name": "APIs",

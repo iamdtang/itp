@@ -202,18 +202,18 @@
     "active": false
   },
   {
-    "date": "2/24",
+    "date": "2/9",
     "units": [
       {
         "subject": "Object Relational Mapping",
-        "pdf": "/slides/orm.pdf"
+        "pdf": ""
       },
       {
-        "subject": "Class Demo",
-        "link": "https://bitbucket.org/skaterdav85/itp405-laravel-2015/src/0dc4c3b02cdd6520c691219f88cdc48a661a5577/?at=2-24-2015"
+        "subject": "Eloquent ORM",
+        "link": "https://laravel.com/docs/5.2/eloquent"
       }
     ],
-    "active": false
+    "active": true
   },
   {
     "date": "2/17",
