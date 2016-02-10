@@ -206,7 +206,7 @@
     "units": [
       {
         "subject": "Object Relational Mapping",
-        "pdf": ""
+        "pdf": "/slides/orm.pdf"
       },
       {
         "subject": "Eloquent ORM",

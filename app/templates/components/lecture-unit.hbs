@@ -6,6 +6,8 @@
       {{unit.subject}}
     {{/link-to}}
   {{/if}}
+{{else if unit.pdf}}
+  <a href="{{unit.pdf}}" target="_blank">{{unit.subject}}</a>
 {{else}}
   {{unit.subject}}
 {{/if}}
