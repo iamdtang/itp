@@ -70,6 +70,16 @@
     "active": true
   },
   {
+    "name": "Build an API (Laravel)",
+    "type": "A",
+    "due": "2/23",
+    "id": "dvd-api",
+    "links": {
+      "assignment-content": "/assignments/dvd-api.md"
+    },
+    "active": true
+  },
+  {
     "name": "APIs",
     "type": "A",
     "due": "3/10",

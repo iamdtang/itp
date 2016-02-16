@@ -202,6 +202,24 @@
     "active": false
   },
   {
+    "date": "2/16",
+    "units": [
+      {
+        "subject": "What is REST?",
+        "link": "rest"
+      },
+      {
+        "subject": "Download Advanced REST Client Chrome Extension",
+        "link": "https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo"
+      },
+      {
+        "subject": "Class demo - Building a REST API with Eloquent",
+        "link": ""
+      }
+    ],
+    "active": true
+  },
+  {
     "date": "2/9",
     "units": [
       {
