@@ -19,7 +19,7 @@ The response should contain all genres in the following structure:
 
 ### 2. GET /api/v1/genres/{id} - A single genre
 
-This should respond with a single genre for the given id with a structure like:
+This should respond with a single genre for the route parameter `id` with a structure:
 
 ```json
 {
@@ -27,6 +27,14 @@ This should respond with a single genre for the given id with a structure like:
     "id": 1,
     "genre_name": "Action"
   }
+}
+```
+
+If the genre is not found, respond with a 404 http status code and the following response:
+
+```json
+{
+  "error": "Genre not found"
 }
 ```
 
@@ -65,7 +73,7 @@ Return 20 dvds. `genre_id` should be labeled as `genre`. `rating_id` should be l
 
 ### 4. GET /api/v1/dvds/{id} - A single dvd
 
-`genre_id` should be labeled as `genre`. `rating_id` should be labeled as `rating`. Related records should be sideloaded under the keys `genres` and `ratings`.
+Return a single dvd. `genre_id` should be labeled as `genre`. `rating_id` should be labeled as `rating`. Related records should be sideloaded under the keys `genres` and `ratings`.
 
 ```json
 {
@@ -91,7 +99,17 @@ Return 20 dvds. `genre_id` should be labeled as `genre`. `rating_id` should be l
 }
 ```
 
+If the dvd is not found, respond with a 404 http status code and the following response:
+
+```json
+{
+  "error": "DVD not found"
+}
+```
+
 ### 5. POST /api/v1/dvds - Create a dvd
+
+This endpoint should create a DVD. The dvd title should be unique so put validation logic for that. (Hint: Use the __unique__ rule for the Validator class).
 
 Request payload should look like the following:
 
@@ -106,7 +124,7 @@ Request payload should look like the following:
 }
 ```
 
-Notice how the request payload has no id property. The response should look like the following:
+Notice how the request payload has no id property. If the operation is successful, the response should look like the following, now with an id:
 
 ```json
 {
@@ -120,4 +138,14 @@ Notice how the request payload has no id property. The response should look like
 }
 ```
 
-Notice how there is an id property now.
+If the operation fails for not having a unique title, send a 422 http status code with the following response;
+
+```js
+{
+  "errors": {
+    "artist_name": [
+      // the default Validator error message
+    ]
+  }
+}
+```
