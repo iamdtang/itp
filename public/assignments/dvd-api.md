@@ -40,7 +40,7 @@ If the genre is not found, respond with a 404 http status code and the following
 
 ### 3. GET /api/v1/dvds - The first 20 dvds
 
-Return 20 dvds. `genre_id` should be labeled as `genre`. `rating_id` should be labeled as `rating`. Related records should be sideloaded under the keys `genres` and `ratings`.
+Return 20 dvds. Related records should be sideloaded under the keys `genres` and `ratings`.
 
 ```js
 {
@@ -49,8 +49,8 @@ Return 20 dvds. `genre_id` should be labeled as `genre`. `rating_id` should be l
       "id": 1,
       "title": "Fast and Furious",
       "award": "Oscar" ,
-      "genre": 1,
-      "rating": 7
+      "genre_id": 1,
+      "rating_id": 7
     },
     ...
   ],
@@ -73,7 +73,7 @@ Return 20 dvds. `genre_id` should be labeled as `genre`. `rating_id` should be l
 
 ### 4. GET /api/v1/dvds/{id} - A single dvd
 
-Return a single dvd. `genre_id` should be labeled as `genre`. `rating_id` should be labeled as `rating`. Related records should be sideloaded under the keys `genres` and `ratings`.
+Return a single dvd. Related records should be sideloaded under the keys `genres` and `ratings`.
 
 ```json
 {
@@ -81,8 +81,8 @@ Return a single dvd. `genre_id` should be labeled as `genre`. `rating_id` should
     "id": 1,
     "title": "Fast and Furious",
     "award": "Oscar" ,
-    "genre": 1,
-    "rating": 7
+    "genre_id": 1,
+    "rating_id": 7
   },
   "genres": [
     {
@@ -109,22 +109,9 @@ If the dvd is not found, respond with a 404 http status code and the following r
 
 ### 5. POST /api/v1/dvds - Create a dvd
 
-This endpoint should create a DVD. The dvd title should be unique so put validation logic for that. (Hint: Use the __unique__ rule for the Validator class).
+This endpoint should create a DVD. The dvd `title` should be required and unique so put validation logic for that. (Hint: Use the __required__ and __unique__ rules for the Validator class).
 
-Request payload should look like the following:
-
-```json
-{
-  "dvd": {
-    "title": "Fast and Furious",
-    "award": "Oscar" ,
-    "genre": 1,
-    "rating": 7
-  }
-}
-```
-
-Notice how the request payload has no id property. If the operation is successful, the response should look like the following, now with an id:
+If the operation is successful, the response should look like the following:
 
 ```json
 {
@@ -132,19 +119,19 @@ Notice how the request payload has no id property. If the operation is successfu
     "id": 99,
     "title": "Fast and Furious",
     "award": "Oscar" ,
-    "genre": 1,
-    "rating": 7
+    "genre_id": 1,
+    "rating_id": 7
   }
 }
 ```
 
-If the operation fails for not having a unique title, send a 422 http status code with the following response;
+If the operation fails validation, send a 422 http status code with the following response;
 
 ```js
 {
   "errors": {
-    "artist_name": [
-      // the default Validator error message
+    "title": [
+      // the default Validator error messages for the title attribute
     ]
   }
 }
