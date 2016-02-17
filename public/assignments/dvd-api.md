@@ -40,7 +40,7 @@ If the genre is not found, respond with a 404 http status code and the following
 
 ### 3. GET /api/v1/dvds - The first 20 dvds
 
-Return 20 dvds. Related records should be sideloaded under the keys `genres` and `ratings`.
+Return 20 dvds. Related records should be sideloaded under the keys `genres` and `ratings`. Use the `$hidden` property on the model to hide certain fields: https://laravel.com/docs/5.1/eloquent-serialization#hiding-attributes-from-json
 
 ```js
 {
@@ -73,7 +73,7 @@ Return 20 dvds. Related records should be sideloaded under the keys `genres` and
 
 ### 4. GET /api/v1/dvds/{id} - A single dvd
 
-Return a single dvd. Related records should be sideloaded under the keys `genres` and `ratings`.
+Return a single dvd. Related records should be sideloaded under the keys `genres` and `ratings`. Use the `$hidden` property on the model to hide certain fields: https://laravel.com/docs/5.1/eloquent-serialization#hiding-attributes-from-json
 
 ```json
 {
