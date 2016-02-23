@@ -184,22 +184,30 @@
     "active": false
   },
   {
-    "date": "3/3",
+    "date": "2/23",
     "units": [
       {
-        "subject": "What is REST?, Web APIs, Caching, and Building REST APIs",
-        "link": "rest"
+        "subject": "Service classes, 3rd party APIs (SoundCloud)",
+        "link": ""
       },
       {
-        "subject": "Download Advanced REST Client Chrome Extension",
-        "link": "https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo"
+        "subject": "Register your App for a client ID to access the SoundCloud API",
+        "link": "https://developers.soundcloud.com/"
       },
       {
-        "subject": "Class demo",
-        "link": "https://bitbucket.org/skaterdav85/itp405-laravel-2015/src/0c7a1591d6c5130cedaa511a0f34984ec42a36de/?at=3-3-2015"
+        "subject": "Caching",
+        "link": "https://laravel.com/docs/5.2/cache"
+      },
+      {
+        "subject": "Blade Templating",
+        "link": "https://laravel.com/docs/5.2/blade"
+      },
+      {
+        "subject": "Class demo (branch 2-23-in-class)",
+        "link": "https://bitbucket.org/skaterdav85/laravel-music-2016"
       }
     ],
-    "active": false
+    "active": true
   },
   {
     "date": "2/16",
@@ -214,7 +222,7 @@
       },
       {
         "subject": "Class demo - Building a REST API with Eloquent",
-        "link": ""
+        "link": "https://bitbucket.org/skaterdav85/laravel-music-2016"
       }
     ],
     "active": true
