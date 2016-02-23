@@ -1,41 +1,16 @@
-Rotten Tomatoes API
+Consume an API
 ===================
 
-For this assignment, you will display Rotten Tomato data on the DVD Details Page and cache it for subsequent requests for 60 minutes.
+### The Basics
 
-### Displaying Rotten Tomato data on the DVD Details Page
-
-Head over to the [Rotten Tomatoes API site](http://developer.rottentomatoes.com/) and register for an account. You will get an API key to be used in API requests. Here is an example call for the move Die Hard:
-
-```
-http://api.rottentomatoes.com/api/public/v1.0/movies.json?page=1&apikey=YOUR-API-KEY-HERE&q=die+hard
-```
-
-Replace __YOUR-API-KEY-HERE__ with your own API key.
-
-On the dvd details page, display the following data:
-
-* Ratings
-	* Critic Score (ratings.critics_score)
-	* Audience Score (ratings.audience_score)
-* One of the images in the the posters property
-* Runtime (runtime property)
-* Abridged Cast (abridged_cast property)
-
-When you make the API call, you are going to get back an array of movies that match the search. For example, in the example call above, I get back 18 results and Die Hard is the 2nd result in the list. It is up to you to find the correct movie in the array. If there are no matches, don't attempt to display anything on the page from Rotten Tomatoes.
-
-### Caching Rotten Tomato Calls
-
-If a successful match is found, cache that dvd title for 60 minutes using [Laravel's Cache class](http://laravel.com/docs/5.0/cache). On subsequent requests for the same dvd search, return the data from the cache instead of making another API call.
+* Find an API you'd like to work with, and create a page with a dynamic route that displays information from that API using PHP.
+* Cache the API call based on some dynamic data for 30 minutes, like how we cached SoundCloud API responses using a key made up of the SoundCloud URL. Use [Laravel's Cache class](http://laravel.com/docs/5.2/cache). Subsequent calls to the API for the same search term should be much faster.
 
 ### Refactor
 
-However you got the above working, now refactor your code so that the Rotten Tomatoes API call and the caching lives in the class `App\Services\RottenTomatoes`. Create a method called `search($dvd_title)`. Now, your controller can simply consume this class instead of dealing with the API call and caching directly and this service can be reused in other parts of your application if need be.
+Once you got the above working, refactor your code so that the API call and caching is in its own class under the namespace `App\Services`. Your namespace can be longer than that, but it must start with `App\Services`.
 
-### Styling
-
-This page does have a lot of content on it so be sure to style it a little to make it presentable and easy to use.
 
 ### Submission
 
-To submit, push this code up to the same repository as last week named __itp405-spring2015-mvc__.
+To submit, push this code up to a repository named itp405-spring2016-laravel on the master branch and email myself and the TA (dongyanc@usc.edu). In your email, __specify the route we should grade along with an example (since there are dynamic segments)__. Please don't create different branches for each assignment. Also, include the commit ID for this assignment submission in your email.

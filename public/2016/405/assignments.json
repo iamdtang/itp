@@ -82,12 +82,12 @@
   {
     "name": "APIs",
     "type": "A",
-    "due": "3/10",
+    "due": "3/1",
     "id": "api",
     "links": {
       "assignment-content": "/assignments/api.md"
     },
-    "active": false
+    "active": true
   },
   {
     "name": "Midterm",
