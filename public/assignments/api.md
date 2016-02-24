@@ -10,6 +10,9 @@ Consume an API
 
 Once you got the above working, refactor your code so that the API call and caching is in its own class under the namespace `App\Services`. Your namespace can be longer than that, but it must start with `App\Services`.
 
+### Rendering
+
+Render the data from your API using Blade templating. Use a layout to abstract away your HTML document skeleton. Your view should be injected somewhere between the body tags in your layout.
 
 ### Submission
 
