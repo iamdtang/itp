@@ -128,14 +128,14 @@
     "active": false
   },
   {
-    "name": "Unit Testing",
-    "type": "L",
-    "due": "3/25",
-    "id": "unit-testing",
+    "name": "Testing",
+    "type": "A",
+    "due": "3/8",
+    "id": "laravel-testing",
     "links": {
-      "assignment-content": "/assignments/unit-testing.md"
+      "assignment-content": "/assignments/laravel-testing.md"
     },
-    "active": false
+    "active": true
   },
   {
     "name": "Project Starter 1",
