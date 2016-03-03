@@ -82,6 +82,28 @@
     "active": false
   },
   {
+    "date": "4/14",
+    "units": [
+      {
+        "subject": "Testing Overview (slides)",
+        "pdf": "/slides/unit-testing.pdf"
+      },
+      {
+        "subject": "Testing in Laravel with PHPUnit Documentation",
+        "link": "https://laravel.com/docs/5.2/testing"
+      },
+      {
+        "subject": "PHPUnit",
+        "link": "https://phpunit.de/"
+      },
+      {
+        "subject": "Class Demo",
+        "link": "https://bitbucket.org/skaterdav85/laravel-music-2016/src/8265ffb7f762a76eb8a12eb05ea1a0e9d601f28f/?at=3-1-in-class"
+      }
+    ],
+    "active": true
+  },
+  {
     "date": "4/7",
     "units": [
       {
