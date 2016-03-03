@@ -130,7 +130,7 @@
   {
     "name": "Testing",
     "type": "A",
-    "due": "3/8",
+    "due": "3/10",
     "id": "laravel-testing",
     "links": {
       "assignment-content": "/assignments/laravel-testing.md"
