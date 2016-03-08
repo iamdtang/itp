@@ -52,7 +52,7 @@
     "active": false
   },
   {
-    "date": "4/14",
+    "date": "3/1",
     "units": [
       {
         "subject": "Unit Testing with PHPUnit, Dependency Injection, & Mocking with Mockery",
@@ -82,7 +82,7 @@
     "active": false
   },
   {
-    "date": "4/14",
+    "date": "3/1",
     "units": [
       {
         "subject": "Testing Overview (slides)",

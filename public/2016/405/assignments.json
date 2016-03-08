@@ -118,16 +118,6 @@
     "active": false
   },
   {
-    "name": "Final Project",
-    "type": "P",
-    "due": "4/28 (last day of class)",
-    "id": "final-project",
-    "links": {
-      "assignment-content": "/assignments/final-project.md"
-    },
-    "active": false
-  },
-  {
     "name": "Testing",
     "type": "A",
     "due": "3/10",
@@ -140,11 +130,21 @@
   {
     "name": "Project Starter 1",
     "type": "L",
-    "due": "4/8",
+    "due": "4/22",
     "id": "project-starter1",
     "links": {
       "assignment-content": "/assignments/project-starter1.md"
     },
-    "active": false
+    "active": true
+  },
+  {
+    "name": "Final Project",
+    "type": "P",
+    "due": "4/30 (Saturday at 10am)",
+    "id": "405-final-project",
+    "links": {
+      "assignment-content": "/assignments/405-final-project.md"
+    },
+    "active": true
   }
 ]

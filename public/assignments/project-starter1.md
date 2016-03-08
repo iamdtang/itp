@@ -1,9 +1,16 @@
 Project Starter 1
 =================
 
-Figure out what API you'd like to use in your application. Write a class that interacts with that API. Then, build a class similar to the example in class where it is responsible for:
+Create a fresh installation of Laravel and push it up to a repo on Github called `itp405-final-project`. Next, update the `README.md` file and describe what you want to build for your final project and how you will meet the requirements. Questions you want to answer include:
 
-1. Checking if data is in the cache, and if so returns that.
-2. If data in the cache is stale or doesnt exist, it refetches data, caches it, and returns that data.
+- What is your site about?
+- What types of users will visit your site?
+- Will they need to create an account?
+- What API will you be using?
+- What do you think your tables will be?
 
-If you plan on using Node.js for the project, please document in a readme.md file the caching package you will be using.
+Once you addressed those questions, write a service class that interacts with the API you've chosen.
+
+### Submission
+
+To submit, send an email to myself and the TA (dongyanc@usc.edu) containing the URL of your Github repo for your project.
