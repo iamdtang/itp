@@ -1,5 +1,27 @@
 [
   {
+    "date": "3/7",
+    "units": [
+      {
+        "subject": "Authentication",
+        "link": "http://laravel.com/docs/5.2/authentication"
+      },
+      {
+        "subject": "Middleware",
+        "link": "http://laravel.com/docs/5.2/middleware"
+      },
+      {
+        "subject": "Class demo",
+        "link": ""
+      },
+      {
+        "subject": "LAB:  Installing Node/NVM, Bower, and Ember CLI",
+        "link": ""
+      }
+    ],
+    "active": true
+  },
+  {
     "date": "4/28",
     "units": [
       {
@@ -151,36 +173,6 @@
       {
         "subject": "Class demo",
         "link": "https://bitbucket.org/skaterdav85/node-demo-inclass-2015"
-      }
-    ],
-    "active": false
-  },
-  {
-    "date": "3/24",
-    "units": [
-      {
-        "subject": "Midterm results",
-        "link": ""
-      },
-      {
-        "subject": "Authentication",
-        "link": "http://laravel.com/docs/5.0/authentication"
-      },
-      {
-        "subject": "Middleware",
-        "link": "http://laravel.com/docs/5.0/middleware"
-      },
-      {
-        "subject": "redirect API in Laravel",
-        "link": "http://laravel.com/api/5.0/Illuminate/Routing/Redirector.html"
-      },
-      {
-        "subject": "Class demo",
-        "link": "https://bitbucket.org/skaterdav85/itp405-laravel-2015/src/fc4feff78fd1186389134920a0336a53b7f1136a/?at=3-24-2015"
-      },
-      {
-        "subject": "LAB: JavaScript overview (optional)",
-        "link": ""
       }
     ],
     "active": false
