@@ -1,6 +1,40 @@
 [
   {
-    "date": "3/7",
+    "date": "4/5",
+    "units": [
+      {
+        "subject": "Written Exam",
+        "link": ""
+      }
+    ],
+    "active": true
+  },
+  {
+    "date": "3/29",
+    "units": [
+      {
+        "subject": "Single page applications with EmberJS (video lecture - out of town for a conference)",
+        "link": ""
+      },
+      {
+        "subject": "Handling authentication",
+        "link": ""
+      }
+    ],
+    "active": true
+  },
+  {
+    "date": "3/22",
+    "units": [
+      {
+        "subject": "Single page applications with EmberJS",
+        "link": ""
+      }
+    ],
+    "active": true
+  },
+  {
+    "date": "3/8",
     "units": [
       {
         "subject": "Authentication",
