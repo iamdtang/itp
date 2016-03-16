@@ -1,5 +1,15 @@
 [
   {
+    "date": "4/12",
+    "units": [
+      {
+        "subject": "Guest lecture - credit card processing (Dan Chen)",
+        "link": ""
+      }
+    ],
+    "active": true
+  },
+  {
     "date": "4/5",
     "units": [
       {
@@ -17,7 +27,7 @@
         "link": ""
       },
       {
-        "subject": "Handling authentication",
+        "subject": "Handling authentication in a single page application",
         "link": ""
       }
     ],
@@ -26,6 +36,10 @@
   {
     "date": "3/22",
     "units": [
+      {
+        "subject": "Single page vs. traditional server-rendered applications",
+        "link": ""
+      },
       {
         "subject": "Single page applications with EmberJS",
         "link": ""
