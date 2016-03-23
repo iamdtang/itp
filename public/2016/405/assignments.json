@@ -129,8 +129,8 @@
   },
   {
     "name": "Project Starter 1",
-    "type": "L",
-    "due": "4/22",
+    "type": "A",
+    "due": "3/22",
     "id": "project-starter1",
     "links": {
       "assignment-content": "/assignments/project-starter1.md"
@@ -144,6 +144,16 @@
     "id": "405-final-project",
     "links": {
       "assignment-content": "/assignments/405-final-project.md"
+    },
+    "active": true
+  },
+  {
+    "name": "Client-Side Applications",
+    "type": "A",
+    "due": "3/29",
+    "id": "client-side-applications",
+    "links": {
+      "assignment-content": "/assignments/client-side-applications.md"
     },
     "active": true
   }
