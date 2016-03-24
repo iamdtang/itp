@@ -1,6 +1,8 @@
 Midterm Study Guide
 ===================
 
+The midterm will be true/false, fill in the blank, short answer, multiple choice. Closed notes/books/computer.
+
 - GET vs POST
 - Writing SQL and joining with INNER JOIN, LEFT JOIN, and WHERE
 - Database relationships
