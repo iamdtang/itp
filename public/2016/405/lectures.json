@@ -4,7 +4,7 @@
     "units": [
       {
         "subject": "Guest lecture - credit card processing (Dan Chen)",
-        "link": ""
+        "link": "https://docs.google.com/presentation/d/1sTnD6j7an2guelZw_ISJyUqLIY63XW8L2ONBqAwRNoM/edit#slide=id.p"
       }
     ],
     "active": true
@@ -31,7 +31,7 @@
         "link": ""
       },
       {
-        "subject": "Handling authentication in a single page application",
+        "subject": "CRUD, CORS, Writing a CORS Middleware, JSON-API, Ember Data",
         "link": ""
       }
     ],
