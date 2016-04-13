@@ -5,6 +5,10 @@
       {
         "subject": "Guest lecture - Accepting Payments (Dan Chen)",
         "link": "https://docs.google.com/presentation/d/1sTnD6j7an2guelZw_ISJyUqLIY63XW8L2ONBqAwRNoM/edit#slide=id.p"
+      },
+      {
+        "subject": "Demo",
+        "link": "https://github.com/dyc5828/stripe-laravel-example/tree/master"
       }
     ],
     "active": true
