@@ -1,5 +1,35 @@
 [
   {
+    "date": "4/19",
+    "units": [
+      {
+        "subject": "(Slides) Introduction to Node.js and Express",
+        "link": ""
+      },
+      {
+        "subject": "Reading: JavaScript Flow Control",
+        "link": "http://thejsguy.com/javascript/node.js/2014/06/27/JavaScript-Flow-Control.html"
+      },
+      {
+        "subject": "Reading: Unit Testing and TDD in Node.js - Part 1",
+        "link": "https://www.codementor.io/nodejs/tutorial/unit-testing-nodejs-tdd-mocha-sinon"
+      },
+      {
+        "subject": "Reading: Unit Testing and TDD in Node.js - Part 2",
+        "link": "https://www.codementor.io/nodejs/tutorial/unit-testing-tdd-node-js-nockjs-part-2"
+      },
+      {
+        "subject": "Node.js Explained (Youtube video)",
+        "link": "https://www.youtube.com/watch?v=L0pjVcIsU6A"
+      },
+      {
+        "subject": "Demo",
+        "link": "https://bitbucket.org/skaterdav85/itp-405-node-2016"
+      }
+    ],
+    "active": true
+  },
+  {
     "date": "4/12",
     "units": [
       {
