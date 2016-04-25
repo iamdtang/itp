@@ -54,5 +54,3 @@ I will grade based on the above requirements as well as:
 - did you meet all the requirements?
 - styling / html document structure (as opposed to pages not having an HTML document structure)
 - does it work?
-
-**Final project presentations will take place on the last day of class**
