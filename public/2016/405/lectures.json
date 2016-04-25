@@ -3,7 +3,15 @@
     "date": "4/26",
     "units": [
       {
-        "subject": "Deploying to Heroku",
+        "subject": "Travis CI integration",
+        "link": "travis"
+      },
+      {
+        "subject": "Deploying Ember to Heroku (coming soon)",
+        "link": ""
+      },
+      {
+        "subject": "Deploying Node and Laravel to Heroku",
         "link": "heroku"
       },
       {

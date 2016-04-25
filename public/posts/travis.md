@@ -1,6 +1,8 @@
 Continuous Integration with Travis CI
 ====
 
+__I will post a video on continuous integration and Travis CI this week.__
+
 1. Push your Laravel project up to Github
 2. Head to [Travis CI](https://travis-ci.org) and sign in with Github.
 3. On the left next to "My Repositories", click the plus sign. Then, add your repository using the switch icon to the left of your repository name. You might have to click the "Sync" button first next to your name near the page title.
