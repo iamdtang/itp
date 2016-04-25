@@ -1,5 +1,23 @@
 [
   {
+    "date": "4/26",
+    "units": [
+      {
+        "subject": "Deploying to Heroku",
+        "link": "heroku"
+      },
+      {
+        "subject": "Node: Environment variables",
+        "link": "https://www.youtube.com/watch?v=P313snxE1Qs"
+      },
+      {
+        "subject": "Node: More on Sequelize, Promises, and Guard Checks",
+        "link": "https://www.youtube.com/watch?v=aGhYcC1FIO4"
+      }
+    ],
+    "active": true
+  },
+  {
     "date": "4/19",
     "units": [
       {
