@@ -3,6 +3,10 @@
     "date": "4/26",
     "units": [
       {
+        "subject": "Dan Guest Lecture - Hosting your apps on AWS",
+        "link": "https://docs.google.com/presentation/d/1O_WfdzyZvyXpccHfziHdsENUocO50w1AliAbOSvVRZs/edit?usp=sharing"
+      },
+      {
         "subject": "Travis CI integration",
         "link": "travis"
       },
