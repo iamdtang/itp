@@ -41,10 +41,12 @@ Create a final project on a topic of your choice using the technologies and tech
 ## Submission
 - Final projects will be turned in on Github and Heroku
 - Final projects may be turned in late by 1 week for 90% credit. You must notify the instructor if you opt for the later deadline before the due date.
-- Students will create a short (less than 5 minute) screencast walking through and explaining their project and where requirements were met. This gives you a chance to demonstrate all aspects of your application that I might miss when grading. Here are a few free screencast options:
+- Students will create a short (less than 5 minute) screencast walking through and __explaining__ their project and where requirements were met. This gives you a chance to demonstrate all aspects of your application that I might miss when grading. Here are a few free screencast options:
   - [http://www.screenr.com/](http://www.screenr.com/) (in the browser)
   - quicktime on mac
   - Jing - [http://www.techsmith.com/jing.html](http://www.techsmith.com/jing.html)
+
+Please post this screencast to Youtube or Vimeo, and include a link to this video on your project README.md.
 
 ## Grading
 
