@@ -16,7 +16,6 @@ __I will post a video on continuous integration and Travis CI this week.__
 ```
 language: php
 php:
-  - 5.4
   - 5.5
   - 5.6
 
