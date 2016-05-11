@@ -43,6 +43,7 @@
     "ember-disable-proxy-controllers": "^1.0.0",
     "ember-export-application-global": "^1.0.2",
     "ember-moment": "4.1.0",
+    "ember-share": "0.0.7",
     "emberfire": "1.6.1",
     "liquid-fire": "0.21.2"
   }

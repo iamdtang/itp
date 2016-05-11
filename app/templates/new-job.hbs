@@ -4,22 +4,22 @@
 
 <div class="row">
   <div class="col-md-12">
-    <form {{action 'save' model on="submit"}}>
+    <form onsubmit={{action 'save' newJob}}>
       <div class="form-group">
         <label for="position">Position</label>
-        {{input id="position" value=model.position class="form-control"}}
+        {{input id="position" value=newJob.position class="form-control"}}
       </div>
       <div class="form-group">
         <label for="poc">Point of Contact</label>
-        {{input id="poc" value=model.poc class="form-control" placeholder="Name, email, phone, etc"}}
+        {{input id="poc" value=newJob.poc class="form-control" placeholder="Name, email, phone, etc"}}
       </div>
       <div class="form-group">
         <label>Compensation</label>
-        {{textarea value=model.compensation class="form-control" rows="3" placeholder="Money, equity..."}}
+        {{textarea value=newJob.compensation class="form-control" rows="3" placeholder="Money, equity..."}}
       </div>
       <div class="form-group">
         <label>Description</label>
-        {{textarea value=model.description class="form-control" rows="10"}}
+        {{textarea value=newJob.description class="form-control" rows="10"}}
       </div>
       <button type="submit" class="btn btn-default">Submit</button>
     </form>
