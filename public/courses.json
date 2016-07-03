@@ -1,5 +1,23 @@
 [
   {
+    "id": 20163404,
+    "course_number": "404",
+    "course_name": "Modern Technologies in Web Development",
+    "semester": "Fall",
+    "year": 2016,
+    "color": "green",
+  	"instructor": "David Tang",
+  	"syllabus": "http://web-app.usc.edu/soc/syllabus/20163/31835.pdf",
+  	"time": "Tuesdays 6-8:50pm",
+    "discussionBoard": "https://blackboard.usc.edu/webapps/discussionboard/do/conference?action=list_forums&course_id=_159236_1&conf_id=204224&nav=cp_discussion_board",
+  	"office_hours": "TBA",
+    "links": {
+      "assignments": "/2016/404/assignments.json",
+      "lectures": "/2016/404/lectures.json"
+    },
+    "active": true
+  },
+  {
     "id": 20161405,
     "course_number": "405",
     "course_name": "Professional Applications and Frameworks in Web Development",
@@ -14,7 +32,8 @@
       "assignments": "/2016/405/assignments.json",
       "lectures": "/2016/405/lectures.json"
     },
-    "active": true
+    "active": true,
+    "archived": true
   },
   {
     "id": 20153404,

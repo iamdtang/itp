@@ -1,17 +1,20 @@
 import DS from 'ember-data';
 
-export default DS.Model.extend({
-  course_number: DS.attr('string'),
-  course_name: DS.attr('string'),
-  semester: DS.attr('string'),
-  year: DS.attr('number'),
-  color: DS.attr('string'),
-  instructor: DS.attr('string'),
-  syllabus: DS.attr('string'),
-  time: DS.attr('string'),
-  office_hours: DS.attr('string'),
+let { Model, attr } = DS;
+
+export default Model.extend({
+  course_number: attr('string'),
+  course_name: attr('string'),
+  semester: attr('string'),
+  year: attr('number'),
+  color: attr('string'),
+  instructor: attr('string'),
+  syllabus: attr('string'),
+  time: attr('string'),
+  office_hours: attr('string'),
   assignments: DS.hasMany('assignment', { async: true }),
   lectures: DS.hasMany('lecture', { async: true }),
-  active: DS.attr('boolean'),
-  archived: DS.attr('boolean')
+  active: attr('boolean'),
+  archived: attr('boolean'),
+  discussionBoard: attr('string')
 });

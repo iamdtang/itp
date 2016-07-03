@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Objects and this",
+    "type": "A",
+    "due": "9/6",
+    "id": "objects-and-this",
+    "links": {
+      "assignment-content": "/assignments/objects-and-this.md"
+    },
+    "active": true
+  }
+]

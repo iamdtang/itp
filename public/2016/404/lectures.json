@@ -1,0 +1,12 @@
+[
+  {
+    "date": "8/23",
+    "units": [
+      {
+        "subject": "Course introduction, JS Frameworks",
+        "link": "overview"
+      }
+    ],
+    "active": true
+  }
+]
