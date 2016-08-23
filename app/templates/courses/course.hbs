@@ -26,7 +26,6 @@
 <div class="row">
   <div class="col-md-7">
     <h3 class="block-title">Lectures</h3>
-
     {{#each activeLectures as |lecture|}}
       <div class="lecture">
         <p class="lecture-date">{{lecture.date}}</p>
@@ -45,20 +44,25 @@
     <div class="row">
       <div class="col-md-12">
         <h3 class="block-title">Exercises</h3>
+        <p>No exercises at this time.</p>
       </div>
     </div>
     <div class="row">
       <div class="col-md-12">
         <h3 class="block-title">Assignments</h3>
-        <ol id="assignments">
-          {{#each activeAssignments as |assignment|}}
-            <li>
-              {{#link-to 'assignment' assignment.id}}
-                {{assignment.name}} due {{assignment.due}}
-              {{/link-to}}
-            </li>
-          {{/each}}
-        </ol>
+        {{#if activeAssignments.length}}
+          <ol id="assignments">
+            {{#each activeAssignments as |assignment|}}
+              <li>
+                {{#link-to 'assignment' assignment.id}}
+                  {{assignment.name}} due {{assignment.due}}
+                {{/link-to}}
+              </li>
+            {{/each}}
+          </ol>
+        {{else}}
+          <p>No assignments at this time. <a href="https://blackboard.usc.edu/webapps/discussionboard/do/conference?action=list_forums&course_id=_159236_1&nav=cp_discussion_board&conf_id=204224" target="_blank">Why not start a discussion on Blackboard?</a></p>
+        {{/if}}
       </div>
     </div>
   </div>

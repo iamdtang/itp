@@ -12,7 +12,7 @@ Router.map(function() {
       path: ':id'
     });
   });
-  this.route('notes', function() {
+  this.route('notes', { path: 'posts' }, function() {
     this.route('note', {
       path: ':id'
     });

@@ -9,7 +9,7 @@
   	"instructor": "David Tang",
   	"syllabus": "http://web-app.usc.edu/soc/syllabus/20163/31835.pdf",
   	"time": "Tuesdays 6-8:50pm",
-    "discussionBoard": "https://blackboard.usc.edu/webapps/discussionboard/do/conference?action=list_forums&course_id=_159236_1&conf_id=204224&nav=cp_discussion_board",
+    "discussionBoard": "https://blackboard.usc.edu/webapps/discussionboard/do/conference?action=list_forums&course_id=_159236_1&nav=cp_discussion_board&conf_id=204224",
   	"office_hours": "TBA",
     "links": {
       "assignments": "/2016/404/assignments.json",
