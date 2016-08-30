@@ -1,12 +1,12 @@
 [
   {
-    "name": "Objects and this",
+    "name": "Data Manipulation",
     "type": "A",
     "due": "9/6",
-    "id": "objects-and-this",
+    "id": "data-manipulation-in-js",
     "links": {
-      "assignment-content": "/assignments/objects-and-this.md"
+      "assignment-content": "/assignments/data-manipulation-in-js.md"
     },
-    "active": false
+    "active": true
   }
 ]

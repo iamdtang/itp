@@ -1,5 +1,23 @@
 [
   {
+    "date": "8/30",
+    "units": [
+      {
+        "subject": "JSON & Data manipulation with forEach, map, filter, and reduce",
+        "link": "data-manipulation"
+      },
+      {
+        "subject": "The for Loop vs. forEach in JavaScript",
+        "link": "http://thejsguy.com/2016/07/30/javascript-for-loop-vs-array-foreach.html"
+      },
+      {
+        "subject": "Getting Started with Array.prototype.reduce()",
+        "link": "http://thejsguy.com/2015/02/21/getting-started-with-array.prototype.reduce.html"
+      }
+    ],
+    "active": true
+  },
+  {
     "date": "8/23",
     "units": [
       {
