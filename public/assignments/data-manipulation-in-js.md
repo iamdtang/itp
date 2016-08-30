@@ -136,6 +136,6 @@ Your implementation of `classifyReviewsByCost` should return the following:
 
 ## Submission
 
-Create an account on [GitHub](https://github.com/). If you aren't familiar with Git and GitHub, see a TA after class to get set up. Send an email to <mailto:dtang@usc.edu>, <mailto:asrorov@usc.edu>, and <mailto:schheda@usc.edu> with your GitHub URL profile. For example, mine is [https://github.com/skaterdav85](https://github.com/skaterdav85).
+Create an account on [GitHub](https://github.com/). If you aren't familiar with Git and GitHub, see a TA after class to get set up. Send an email to <mailto:dtang@usc.edu>, <mailto:asrorov@usc.edu>, and <mailto:schheda@usc.edu> with your GitHub username.
 
-Next, create a repository called __exactly__ "itp404-assignment1". Push up your code. If you can see your assignment on GitHub and you've emailed us your Github URL, your assignment has been submitted.
+Next, create a repository called __exactly__ "itp404-assignment1". Push up your code. If you can see your assignment on GitHub and you've emailed us your GitHub username, your assignment has been submitted.
