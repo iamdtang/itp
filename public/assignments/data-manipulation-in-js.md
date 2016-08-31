@@ -15,7 +15,7 @@ var reviewsData = {
         'stars': 1,
         'cost': 'high'
       }
-    }
+    },
     {
       id: 2,
       attributes: {
@@ -23,7 +23,7 @@ var reviewsData = {
         'stars': 3,
         'cost': 'average'
       }
-    }
+    },
     {
       id: 3,
       attributes: {
@@ -31,7 +31,7 @@ var reviewsData = {
         'stars': 3.5,
         'cost': 'average'
       }
-    }
+    },
     {
       id: 4,
       attributes: {
@@ -39,6 +39,7 @@ var reviewsData = {
         'stars': 4,
         'cost': 'low-average'
       }
+    },
     {
       id: 5,
       attributes: {
