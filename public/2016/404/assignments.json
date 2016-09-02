@@ -4,9 +4,13 @@
     "type": "A",
     "due": "9/6",
     "id": "data-manipulation-in-js",
-    "links": {
-      "assignment-content": "/assignments/data-manipulation-in-js.md"
-    },
+    "active": true
+  },
+  {
+    "name": "Object Oriented JavaScript",
+    "type": "A",
+    "due": "9/20",
+    "id": "oojs",
     "active": true
   }
 ]

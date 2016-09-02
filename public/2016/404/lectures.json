@@ -1,5 +1,19 @@
 [
   {
+    "date": "9/6",
+    "units": [
+      {
+        "subject": "No class",
+        "link": ""
+      },
+      {
+        "subject": "Objects, this, constructor functions / classes / reference types, and prototypes (video lecture)",
+        "link": "http://www.youtube.com/watch?v=ftrfgtDL6p8"
+      }
+    ],
+    "active": true
+  },
+  {
     "date": "8/30",
     "units": [
       {
