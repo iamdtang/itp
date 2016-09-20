@@ -15,7 +15,31 @@ For this assignment, you will build a search and results page where there is a s
 * `num_comments`
 * If `archived` is `true`, show "Archived". Otherwise, show "Not Archived".
 
-For each item in the list, have a button that says "Show description". When that button is clicked, display the `selftext` property. 
+If there are no items contained in `data.children`, display the message "Nothing found" using the Handlebars `else` helper in the `each` block.
+
+Lastly, for each item in the list, have a button that says "Show description". When that button is clicked, display the `selftext` property.
+
+### Code Requirements
+
+You should have a function:
+
+```js
+function getSubreddits(subreddit) {
+  // makes an AJAX call to the Reddit API using the subreddit argument and
+  // returns a promise that resolves with an array of subreddits formatted like below
+  // notice how num_comments is mapped to commentCount
+}
+```
+
+```json
+[
+  { "score": 25, "title": "...", "commentCount": 4, "description": "...", "archived": true },
+  { "score": 45, "title": "...", "commentCount": 7, "description": "...", "archived": true },
+  { "score": 15, "title": "...", "commentCount": 4, "description": "...", "archived": false }
+]
+```
+
+Then, in your template, you will work with the formatted JSON instead of the raw JSON from the API.
 
 ### Submission
 
