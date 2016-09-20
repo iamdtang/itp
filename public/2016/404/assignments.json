@@ -12,5 +12,12 @@
     "due": "9/20",
     "id": "oojs",
     "active": true
+  },
+  {
+    "name": "AJAX and Client-side Templating",
+    "type": "A",
+    "due": "9/27",
+    "id": "ajax",
+    "active": true
   }
 ]

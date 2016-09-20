@@ -1,5 +1,33 @@
 [
   {
+    "date": "9/20",
+    "units": [
+      {
+        "subject": "AJAX, JSON, Promises, Client­side Templating, Event Delegation",
+        "link": ""
+      },
+      {
+        "subject": "What the heck is the event loop? (25 minute video)",
+        "link": "https://www.youtube.com/watch?v=8aGhZQkoFbQ"
+      },
+      {
+        "subject": "Client-side templating with Handlebars.js",
+        "link": "http://handlebarsjs.com"
+      }
+    ],
+    "active": true
+  },
+  {
+    "date": "9/13",
+    "units": [
+      {
+        "subject": "Guest lecture with Zune",
+        "link": ""
+      }
+    ],
+    "active": true
+  },
+  {
     "date": "9/6",
     "units": [
       {
