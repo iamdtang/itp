@@ -1,9 +1,27 @@
 [
   {
+    "date": "9/27",
+    "units": [
+      {
+        "subject": "Event Delegation",
+        "link": ""
+      },
+      {
+        "subject": "Single page applications, Intro to Ember - Client­-side routing, routes, and templates",
+        "link": ""
+      },
+      {
+        "subject": "Installing Node and Ember-CLI",
+        "link": "installing-ember-cli"
+      }
+    ],
+    "active": true
+  },
+  {
     "date": "9/20",
     "units": [
       {
-        "subject": "AJAX, JSON, Promises, Client­side Templating, Event Delegation",
+        "subject": "AJAX, JSON, Promises, Client­side Templating",
         "link": ""
       },
       {
