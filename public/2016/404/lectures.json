@@ -1,5 +1,15 @@
 [
   {
+    "date": "10/4",
+    "units": [
+      {
+        "subject": "Dynamic Segments, Controllers, Actions, Transitions, and Components",
+        "link": ""
+      }
+    ],
+    "active": true
+  },
+  {
     "date": "9/27",
     "units": [
       {
