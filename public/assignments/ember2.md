@@ -21,6 +21,14 @@ This page should render a list of artists from the endpoint [http://itp-api.hero
 
 Each artist should be a link using the `link-to` helper to the `artists.artist` route, where the URL path is `/artists/:id`.
 
+We've used the `link-to` helper to create anchor tags to routes in our application, but we haven't done one with a dynamic segment. Here is an example of using `link-to` with a dynamic segment:
+
+```
+{{#link-to 'artists.artist' 5}}Artist 5{{/link-to}}
+```
+
+In your homework, replace 5 with the artist ID.
+
 ### 2. The artists.artist Route
 
 The `artists.artist` route is a nested route that should fetch all the songs for the artist from the endpoint `http://itp-api.herokuapp.com/api/artists/:id/songs` where `:id` is the artist id. For example: [http://itp-api.herokuapp.com/api/artists/1/songs](http://itp-api.herokuapp.com/api/artists/1/songs).
