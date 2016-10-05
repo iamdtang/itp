@@ -5,7 +5,19 @@ Create a new Ember application.
 
 ### 1. The artists Route
 
-When a user visits /, the user should be redirected to the `artists` route (with the path /artists). This page should render a list of artists from the endpoint [http://itp-api.herokuapp.com/api/artists](http://itp-api.herokuapp.com/api/artists).
+When a user visits /, the user should be redirected to the `artists` route (with the path /artists). To achieve this, use the `beforeModel` hook in conjunction with the `transitionTo` method:
+
+```js
+Ember.Route.extend({
+  beforeModel() {
+    this.transitionTo('artists');
+  }
+})
+```
+
+The `transitionTo` method on routes works like the `transitionToRoute` method on controllers.
+
+This page should render a list of artists from the endpoint [http://itp-api.herokuapp.com/api/artists](http://itp-api.herokuapp.com/api/artists).
 
 Each artist should be a link using the `link-to` helper to the `artists.artist` route, where the URL path is `/artists/:id`.
 
@@ -33,7 +45,11 @@ Next, if the song has a `playCount` greater than 20, somehow show the user that 
 
 Similarly, create a computed property based on the price. If the price is less than $1.00, show one $. Otherwise, show $$.
 
+### Optional
+
 Lastly, add a "Like" text button. The button should be gray initially. When the user clicks on this text button, it should turn blue. If the user clicks on the blue Like text button, it should turn back to gray. (Just like how it works on Facebook). Check out the "Like" icons from Font Awesome: [http://fontawesome.io/icons/](http://fontawesome.io/icons/)
+
+Hint: Create an action on the component similar to how we created an action on a controller in class.
 
 ### Submission
 
