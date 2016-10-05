@@ -15,7 +15,7 @@ Ember.Route.extend({
 })
 ```
 
-The `transitionTo` method on routes works like the `transitionToRoute` method on controllers.
+The `transitionTo` method on routes works like the `transitionToRoute` method on controllers. Read more about these methods on the [API documentation for Ember.Route](http://emberjs.com/api/classes/Ember.Route.html).
 
 This page should render a list of artists from the endpoint [http://itp-api.herokuapp.com/api/artists](http://itp-api.herokuapp.com/api/artists).
 

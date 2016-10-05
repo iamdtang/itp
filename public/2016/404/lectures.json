@@ -1,9 +1,23 @@
 [
   {
+    "date": "10/11",
+    "units": [
+      {
+        "subject": "Ember.js - CRUD",
+        "link": ""
+      },
+      {
+        "subject": "Midterm Study Guide",
+        "link": "midterm"
+      }
+    ],
+    "active": true
+  },
+  {
     "date": "10/4",
     "units": [
       {
-        "subject": "Dynamic Segments, Controllers, Actions, Transitions, and Components",
+        "subject": "Ember.js - Dynamic Segments, Controllers, Actions, Transitions, and Components",
         "link": ""
       }
     ],
@@ -17,7 +31,7 @@
         "link": ""
       },
       {
-        "subject": "Single page applications, Intro to Ember - Client­-side routing, routes, and templates",
+        "subject": "Ember.js - Single page applications, Intro to Ember: Client­-side routing, routes, and templates",
         "link": ""
       },
       {
