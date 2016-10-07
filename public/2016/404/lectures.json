@@ -1,14 +1,96 @@
 [
   {
-    "date": "10/11",
+    "date": "11/29",
     "units": [
       {
-        "subject": "Ember.js - CRUD",
+        "subject": "What would you like to learn? Please fill out this form.",
+        "link": "https://docs.google.com/forms/d/e/1FAIpQLSeY_wZocY_DVlzB0lEFWpghFVcx3ubIHTDUfz7GwRzUlEVg9A/viewform"
+      }
+    ],
+    "active": true
+  },
+  {
+    "date": "11/22",
+    "units": [
+      {
+        "subject": "No class (Thanksgiving)",
+        "link": ""
+      }
+    ],
+    "active": true
+  },
+  {
+    "date": "11/15",
+    "units": [
+      {
+        "subject": "Ember.js - Unit, Integration, and Acceptance Testing with QUnit",
+        "link": ""
+      },
+      {
+        "subject": "Test Driven Development (TDD)",
+        "link": ""
+      }
+    ],
+    "active": true
+  },
+  {
+    "date": "11/8",
+    "units": [
+      {
+        "subject": "Node.js Part 2 - Object Relational Mapping (ORM) with Sequelize and MySQL",
+        "link": ""
+      }
+    ],
+    "active": true
+  },
+  {
+    "date": "11/1",
+    "units": [
+      {
+        "subject": "Midterm",
         "link": ""
       },
       {
         "subject": "Midterm Study Guide",
         "link": "midterm"
+      }
+    ],
+    "active": true
+  },
+  {
+    "date": "10/25",
+    "units": [
+      {
+        "subject": "Node.js Part 1 - Express",
+        "link": ""
+      },
+      {
+        "subject": "HTTP requests, responses, and status codes",
+        "link": ""
+      },
+      {
+        "subject": "Using other APIs",
+        "link": ""
+      }
+    ],
+    "active": true
+  },
+  {
+    "date": "10/18",
+    "units": [
+      {
+        "subject": "Ember.js - CRUD Part 2 (Updating and Deleting)",
+        "link": ""
+      }
+    ],
+    "active": true
+  },
+  {
+    "date": "10/11",
+    "units": [
+      {
+        "subject": "Ember.js - CRUD Part 1 (Creating and Reading)",
+        "link": ""
       }
     ],
     "active": true

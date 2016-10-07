@@ -33,5 +33,12 @@
     "due": "10/11",
     "id": "ember2",
     "active": true
+  },
+  {
+    "name": "Final Project",
+    "type": "P",
+    "due": "11/29",
+    "id": "404-final-project",
+    "active": true
   }
 ]
