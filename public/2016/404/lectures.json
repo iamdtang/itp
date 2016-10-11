@@ -89,6 +89,10 @@
     "date": "10/11",
     "units": [
       {
+        "subject": "REST APIs, CRUD, HTTP Verbs (Actions)",
+        "link": "https://docs.google.com/presentation/d/1joQ6IWtTn39v3-mSCE4wOopkBkZ3an_SMtSzVR3NsdQ/edit?usp=sharing"
+      },
+      {
         "subject": "Ember.js - CRUD Part 1 (Creating and Reading)",
         "link": ""
       }
