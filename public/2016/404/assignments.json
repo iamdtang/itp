@@ -35,6 +35,13 @@
     "active": true
   },
   {
+    "name": "Ember 3 / Final Project Idea",
+    "type": "A",
+    "due": "10/18",
+    "id": "ember3",
+    "active": true
+  },
+  {
     "name": "Final Project",
     "type": "P",
     "due": "11/29",
