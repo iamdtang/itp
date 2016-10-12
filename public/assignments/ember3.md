@@ -29,9 +29,9 @@ A successful response will look like this:
 
 When the AJAX request resolves, do the following:
 
-* take the new artist object from the response and append it to the list of artists so it updates in the UI
+* take the new artist object from the response and append it to the list of artists so it updates in the UI. (Remember the pushObject() we did in the class demo)
 * clear the form
-* transition to the `/artists` route
+* transition to the `/artists` route using the [`transitionToRoute` controller method](http://emberjs.com/api/classes/Ember.Controller.html#method_transitionToRoute)
 
 __Hint:__ In the `artists.new` controller where your form submit action will be, you will need access to the model in the `artists` route (the list of artists), so that you can append the newly created artist to this list. To achieve this, set the model of the `artists.new` route to the model of the `artists` route using the [modelFor()](http://emberjs.com/api/classes/Ember.Route.html#method_modelFor) method on route objects. For example:
 
