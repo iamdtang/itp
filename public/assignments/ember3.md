@@ -1,7 +1,7 @@
 Ember 3 - CRUD Part 1 / Final Project Idea
 ===
 
-For this homework, you will be using the application we started in class as a starting basis. Here is my copy if you don't want to use yours: (will be updated after the demo in class)
+For this homework, you will be using the application we started in class as a starting basis. Here is my copy if you don't want to use yours: https://bitbucket.org/skaterdav85/crud-in-class
 
 
 ### Creating an artist
