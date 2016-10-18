@@ -53,6 +53,10 @@
       {
         "subject": "Midterm Study Guide",
         "link": "midterm"
+      },
+      {
+        "subject": "Practice Midterm",
+        "link": "practice-midterm"
       }
     ],
     "active": true
