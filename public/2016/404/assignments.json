@@ -47,5 +47,12 @@
     "due": "11/29",
     "id": "404-final-project",
     "active": true
+  },
+  {
+    "name": "Start Final Project",
+    "type": "A",
+    "due": "10/25",
+    "id": "final-project-starter",
+    "active": true
   }
 ]
