@@ -9,7 +9,6 @@ Your final project will be a JavaScript web application on a topic of interest t
   * At least 3 routes
   * Use of AJAX and promises
   * 5 practical acceptance tests in Ember
-  * 3 practical integration tests (component tests) in Ember
 * Using Node.js on the backend (you don't have to use Express)
   * At least 3 API endpoints. These could return data from your database or they could return data from another API, or both!
   * When working with your database, use an ORM. It can be Sequelize or another one you like.

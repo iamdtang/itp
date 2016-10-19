@@ -1,8 +1,11 @@
 Practice Midterm
 =======
 
+Feel free to use a new JSBin for each question. This way you can link me to it and ask questions.
 
-#### 1. Filter the list of songs where the price is less than or equal to $10 using Array.prototype.filter()
+#### 1. Filtering arrays with Array.prototype.filter()
+
+Filter the list of songs where the price is less than or equal to $10
 
 ```js
 var movies = [
@@ -14,7 +17,7 @@ var movies = [
 ];
 ```
 
-#### 2. Create the Comment class
+#### 2. Create the Comment class / constructor function
 
 ```js
 var comment = new Comment('Awesome pic!');
@@ -24,10 +27,22 @@ comment.save();
 ```
 
 
-#### 3. Create a new movies array where movie 4 is replaced with the following:
+#### 3. Translating arrays with Array.prototype.map()
+
+Write the code that replaces the Rush Hour movie object with the Snowden object using `Array.prototype.map()`
 
 ```js
-{ id: 4, title: 'Snowden', price: 6.99 }
+var movies = [
+  { title: 'Fast and Furious', price: 14 },
+  { title: 'Bourne Identity', price: 7 },
+  { title: 'Triple X', price: 11 },
+  { title: 'Rush Hour', price: 8 },
+  { title: 'Happy Gilmore', price: 9 }
+];
+```
+
+```js
+{ title: 'Snowden', price: 6.99 }
 ```
 
 #### 4. Create Array.prototype.sum(property)
@@ -41,7 +56,9 @@ movies.sum('price') // 49
 #### 5. Modify the store.getProducts() method so that it resolves with the array of products
 
 ```js
-// returns a promise
+// We haven't covered the Promise class but it creates a promise object.
+// The data passed into resolve() is what the promise is resolved with.
+// You don't need to modify this function.
 function pretendAjax() {
   return new Promise(function(resolve, reject) {
     resolve({
@@ -58,6 +75,7 @@ function pretendAjax() {
   });
 }
 
+// modify this
 var store = {
   getProducts: function() {
     pretendAjax();
@@ -65,7 +83,7 @@ var store = {
 };
 
 store.getProducts().then(function(products) {
-  // products is the array
+  // products should be an array
 });
 ```
 
@@ -100,8 +118,25 @@ In your UI, you want to display these tickets grouped by urgency. Group the foll
 }
 ```
 
-#### 7. More to come...
+#### 8. Handlebars
 
+Create a single Handlebars template that renders `user1` and `user2`. The template should show the user's name and an unordered list for their skills. If the user has no skills, show "No skills added".
+
+```js
+var user1 = {
+  name: 'David Tang',
+  skills: ['JavaScript', 'PHP', 'HTML']
+};
+
+var user2 = {
+  name: 'John Doe',
+  skills: []
+};
+```
+
+#### 7. AJAX and Handlebars
+
+Make an AJAX call to [http://itp-api.herokuapp.com/api/genres](http://itp-api.herokuapp.com/api/genres) and render the list of genres on the page using Handlebars.
 
 <style>
   h4 {
