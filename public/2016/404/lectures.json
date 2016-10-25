@@ -81,6 +81,10 @@
         "link": "https://www.npmjs.com/"
       },
       {
+        "subject": "CommonJS Modules (Just read the section 'How CommonJS Modules Work')",
+        "link": "http://thejsguy.com/javascript/browserify/2015/01/05/browserify-getting-started.html"
+      },
+      {
         "subject": "Demo",
         "link": "https://bitbucket.org/skaterdav85/node-lectures/src"
       }
