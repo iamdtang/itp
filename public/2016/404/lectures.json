@@ -65,16 +65,24 @@
     "date": "10/25",
     "units": [
       {
+        "subject": "HTTP response status codes",
+        "link": "http://www.steveschoger.com/status-code-poster/"
+      },
+      {
         "subject": "Node.js Part 1 - Express",
-        "link": ""
+        "link": "http://expressjs.com/"
       },
       {
-        "subject": "HTTP requests, responses, and status codes",
-        "link": ""
+        "subject": "Sequelize ORM",
+        "link": "http://docs.sequelizejs.com/en/v3/"
       },
       {
-        "subject": "Using other APIs",
-        "link": ""
+        "subject": "Node Package Manager",
+        "link": "https://www.npmjs.com/"
+      },
+      {
+        "subject": "Demo",
+        "link": "https://bitbucket.org/skaterdav85/node-lectures/src"
       }
     ],
     "active": true
