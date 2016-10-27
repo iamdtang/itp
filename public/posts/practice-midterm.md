@@ -3,7 +3,7 @@ Practice Midterm
 
 Feel free to use a new JSBin for each question. This way you can link me to it and ask questions.
 
-#### 1. Filtering arrays with Array.prototype.filter()
+#### 1. Filtering arrays with filter()
 
 Filter the list of songs where the price is less than or equal to $10
 
@@ -27,7 +27,7 @@ comment.save();
 ```
 
 
-#### 3. Translating arrays with Array.prototype.map()
+#### 3. Translating arrays with map()
 
 Write the code that replaces the Rush Hour movie object with the Snowden object using `Array.prototype.map()`
 
@@ -45,13 +45,13 @@ var movies = [
 { title: 'Snowden', price: 6.99 }
 ```
 
-#### 4. Create Array.prototype.sum(property)
+<!-- #### 4. Create Array.prototype.sum(property)
 
 The `sum()` method on arrays will loop through an array of object and create a sum by the attribute that is passed into `sum`.
 
 ```js
 movies.sum('price') // 49
-```
+``` -->
 
 #### 5. Modify the store.getProducts() method so that it resolves with the array of products
 
@@ -88,7 +88,7 @@ store.getProducts().then(function(products) {
 ```
 
 
-#### 6. Group the following IT support tickets by urgency using Array.prototype.reduce()
+<!-- #### 6. Group the following IT support tickets by urgency using Array.prototype.reduce()
 
 Imagine you make an AJAX call and get the array of ticket data below:
 
@@ -116,7 +116,7 @@ In your UI, you want to display these tickets grouped by urgency. Group the foll
     { title: 'VPN access', urgency: 'low' }
   ]
 }
-```
+``` -->
 
 #### 8. Handlebars
 
